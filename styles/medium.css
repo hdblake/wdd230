@@ -1,13 +1,24 @@
 @media only screen and (min-width: 32.5em) {
 
-    .conatiner {
-        width: 380px;
-        font-size: .85em;
+    .container {
+        width: 600px;
         margin: auto;
+        font-size: 1.15em;
     }
 
     header img {
-        width: 13%;
-        height: 13%;
+        width: 18%;
+        height: 18%;
+        padding: 5px;
+      }
+
+    main h2 {
+        text-align: left;
     }
+
+    main ul {
+        list-style: none;
+        text-align: left;
+        margin: auto;
+      }
 }
