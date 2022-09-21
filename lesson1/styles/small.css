@@ -11,6 +11,8 @@
   width: 450px;
   margin: auto;
   font-size: .75em;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 header img {
