@@ -1,13 +1,12 @@
 @media (min-width: 32.5em) {
-    * {
-        font-size: .7em;
-    }
 
     .conatiner {
-        width: 95%;
+        width: 380px;
+        font-size: .85em;
     }
 
-    header, main {
-        flex-wrap: wrap;
+    header img {
+        width: 13%;
+        height: 13%;
     }
 }
