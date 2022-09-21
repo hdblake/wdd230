@@ -1,8 +1,9 @@
-@media (min-width: 32.5em) {
+@media only screen and (min-width: 32.5em) {
 
     .conatiner {
         width: 380px;
         font-size: .85em;
+        margin: auto;
     }
 
     header img {
