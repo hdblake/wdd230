@@ -1,7 +1,7 @@
 @media only screen and (min-width: 32.5em) {
 
     .container {
-        width: 518px;
+        max-width: 518px;
         margin: auto;
         font-size: 1.15em;
     }
