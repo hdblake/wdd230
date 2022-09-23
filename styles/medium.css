@@ -1,10 +1,11 @@
 @media only screen and (min-width: 32.5em) {
 
     .container {
-        max-width: 518px;
         margin: auto;
         font-size: 1.15em;
-    }
+        padding-left: 5px;
+        padding-right: 5px;
+      }
 
     header img {
         width: 18%;
