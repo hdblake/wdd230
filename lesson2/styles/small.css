@@ -1,0 +1,16 @@
+:root {
+    --main-color: #ff7c09;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    margin-bottom: 15px;
+    margin-top: 5px;
+    background-color: var(--main-color);
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px black;
+}
