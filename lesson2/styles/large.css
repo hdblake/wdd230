@@ -5,22 +5,10 @@
     }
 
     main{
-        grid-template-columns: 1% auto auto auto 1%;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
-    #contrast {
-        grid-column: 2/3;
-        grid-row: 1/2;
-    }
-    
-    #alignment {
-        grid-column: 3/4;
-        grid-row: 1/2;
-
-    }
-    
-    #hicks-law {
-        grid-column: 4/5;
-        grid-row: 1/2;
+    main section:nth-child(3) {
+        grid-column: span 1;
     }
 }

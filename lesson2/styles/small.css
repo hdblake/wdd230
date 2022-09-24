@@ -30,43 +30,27 @@ header {
 
 main {
     display: grid;
-    grid-template-columns: 2% auto 2%;
+    grid-template-columns: 1fr;
+    column-gap: 2%;
     grid-template-rows: repeat(auto-fill);
-    gap: 2%
 }
 
-#contrast {
-    grid-column: 2/3;
-    grid-row: 1/2;
+main section {
     border: 2px solid var(--accent-color);
+    margin-top: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
-#alignment {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    border: 2px solid var(--accent-color);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-#hicks-law {
-    grid-column: 2/3;
-    grid-row: 3/4;
-    border: 2px solid var(--accent-color);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-img {
+main section img {
     display: block;
     margin: auto;
-    max-width: 96%;
+    width: 96%;
+    height: auto;
     border: 2px solid var(--main-color);
 }
 
-#contrast h1, #alignment h1, #hicks-law h1 {
+main section h1 {
     background-color: var(--accent-color);
     color: white;
     padding: 4px;
@@ -77,12 +61,12 @@ img {
     text-align: center;
 }
 
-#contrast h2, #alignment h2, #hicks-law h2 {
+main section h2 {
     text-align: center;
     color: var(--accent-color);
 }
 
-a {
+main section a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,7 +74,7 @@ a {
     margin-bottom: 10px;
 }
 
-p {
+main section p {
     text-align: center;
     margin: 10px 5px;
 }
@@ -99,9 +83,8 @@ footer {
     text-align: center;
     font-size: 15px;
     font-weight: 600;
-    margin-top: 15px;
-    margin-bottom: 10px;
     padding: 2px;
+    margin-top: 15px;
     background-color: var(--main-color);
     color: var(--accent-color);
     border-radius: 8px;

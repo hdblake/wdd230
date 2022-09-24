@@ -9,30 +9,19 @@
     }
 
     main {
-        grid-template-columns: 1% auto auto 1%;
+        grid-template-columns: 1fr 1fr;
     }
 
-    #contrast {
-        grid-column: 2/3;
-        grid-row: 1/2;
-    }
-    
-    #alignment {
-        grid-column: 3/4;
-        grid-row: 1/2;
-
-    }
-    
-    #hicks-law {
-        grid-column: 2/4;
-        grid-row: 2/3;
+    main section:nth-child(3) {
+        grid-column: span 2;
+        
     }
 
-    #contrast h1, #alignment h1, #hicks-law h1 {
+    main section h1 {
         font-size: 28px;
     }
 
-    #contrast h2, #alignment h2, #hicks-law h2 {
+    main section h2 {
         font-size: 24px;
     }
 }
