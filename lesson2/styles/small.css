@@ -1,5 +1,11 @@
 :root {
     --main-color: #ff7c09;
+    --accent-color: #02101B;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .container {
@@ -8,9 +14,96 @@
 }
 
 header {
-    margin-bottom: 15px;
-    margin-top: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px;
+    padding: 3px;
     background-color: var(--main-color);
+    color: var(--accent-color);
     border-radius: 10px;
     box-shadow: 1px 1px 8px black;
+    padding: 3px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2% 96% 2%;
+    grid-template-rows: 1200px 1250px 1200px;
+}
+
+#contrast {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border: 1px solid var(--accent-color);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#alignment {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border: 1px solid var(--accent-color);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#hicks-law {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    border: 1px solid var(--accent-color);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#contrast img, #alignment img, #hicks-law img {
+    width: 98%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#contrast h1, #alignment h1, #hicks-law h1 {
+    background-color: var(--accent-color);
+    color: white;
+    padding: 2px;
+    margin-top: -2px;
+    border:1px solid var(--accent-color);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    text-align: center;
+}
+
+#contrast h2, #alignment h2, #hicks-law h2 {
+    text-align: center;
+    color: var(--accent-color);
+}
+
+#contrast a, #alignment a, #hicks-law a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-color);
+    margin-bottom: 5px;
+}
+
+#contrast p, #alignment p, #hicks-law p {
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 10px;
+    padding: 3px;
+    background-color: var(--main-color);
+    color: var(--accent-color);
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px black;
+    padding: 3px;
 }
