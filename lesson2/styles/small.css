@@ -85,6 +85,7 @@ footer {
     font-weight: 600;
     padding: 2px;
     margin-top: 15px;
+    margin-bottom: 10px;
     background-color: var(--main-color);
     color: var(--accent-color);
     border-radius: 8px;
