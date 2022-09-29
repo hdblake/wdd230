@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
