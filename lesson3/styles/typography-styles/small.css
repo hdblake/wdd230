@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Frank Ruhl Libre', serif;
+    --main-color1: #102542;
+    --main-color2: #F87060;
+    --main-color3: #CDD7D6;
+    --accent-color: white;
+}
+
+body {
+    background-color: var(--main-color1);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 4px;
+    padding-right: 4px;
+    background-color: var(--main-color2);
+    color: var(--main-color1);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-left: -60px;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-color1);
+    font-weight: 600;
+}
+
+a:hover {
+    background-color: var(--main-color1);
+    color: var(--main-color3);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main section {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 40px;
+    padding: 8px;
+}
+
+section h2 {
+    color: var(--main-color2);
+    margin-bottom: 40px;
+}
+
+section p {
+    color: var(--main-color3);
+}
