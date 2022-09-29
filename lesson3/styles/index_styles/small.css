@@ -7,25 +7,28 @@
     --accent-color: white;
 }
 
+body {
+    background-color: var(--main-color1);
+}
+
 header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 8px;
-    padding-right: 8px;
+    display: block;
+    margin-top: -21px;
+    padding-left: 4px;
+    padding-right: 4px;
     background-color: var(--main-color2);
     color: var(--main-color1);
 }
 
 nav ul {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
+    margin-left: -60px;
 }
 
 nav ul li {
-    margin-left: 80px;
-    letter-spacing: 3px;
+    margin-left: 25px;
 }
 
 a {
@@ -41,13 +44,9 @@ a:hover {
     padding: 3px;
 }
 
-body {
-    background-color: var(--main-color1);
-}
-
 main {
-    max-width: 900px;
     margin: 0 auto;
+    max-width: 1000px;
 }
 
 main section {
