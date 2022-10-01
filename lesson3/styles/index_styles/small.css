@@ -62,3 +62,14 @@ section h2 {
 section p {
     color: var(--main-color3);
 }
+
+footer {
+    text-align: center;
+    font-weight: 600;
+    background-color: var(--main-color2);
+    color: var(--main-color1);
+    padding: 4px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
