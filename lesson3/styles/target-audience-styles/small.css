@@ -82,3 +82,12 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+section ul {
+    list-style: none;
+    margin-left: -40px;
+}
+
+section ul li {
+    color: var(--main-color3);
+}

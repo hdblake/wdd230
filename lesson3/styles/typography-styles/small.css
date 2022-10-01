@@ -53,12 +53,11 @@ main {
     margin: 0 auto;
     max-width: 1000px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 main section {
-    text-align: center;
     font-size: 18px;
     margin-bottom: 40px;
     padding: 8px;

@@ -12,4 +12,17 @@
     nav ul li {
         font-size: 20px;
     }
+
+    section {
+        width: 600px;
+        margin-top: 80px;
+    }
+
+    section h2 {
+        font-size: 38px;
+    }
+
+    section p {
+        font-size: 24px;
+    }
 }
