@@ -15,10 +15,15 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 4px;
-    padding-right: 4px;
+    padding: 5px;
     background-color: var(--main-color2);
     color: var(--main-color1);
+    text-align: center;
+}
+
+img {
+    width: 95px;
+    height: 95px;
 }
 
 nav ul {
