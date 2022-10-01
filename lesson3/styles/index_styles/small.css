@@ -14,16 +14,22 @@ body {
 header {
     display: block;
     margin-top: -21px;
-    padding-left: 4px;
-    padding-right: 4px;
+    padding: 5px;
     background-color: var(--main-color2);
     color: var(--main-color1);
+    text-align: center;
+}
+
+img {
+    width: 95px;
+    height: 95px;
 }
 
 nav ul {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
+    justify-content: center;
     margin-left: -60px;
 }
 
