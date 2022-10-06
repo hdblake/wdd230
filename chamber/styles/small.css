@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  font-family: "Frank Ruhl Libre", serif;
+  --main-color1: #102542;
+  --main-color2: #f87060;
+  --main-color3: #cdd7d6;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--main-color3);
+  width: 100%;
+  padding: 6px;
+  border-radius: 8px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.logo-name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-block {
+  text-align: center;
+  margin-left: 50px;
+  color: var(--main-color1);
+  font-weight: 600;
+}
+
+.town-name {
+  margin-bottom: -10px;
+}
+
+nav ul {
+  display: flex;
+  margin-left: 80px;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-color1);
+  font-size: 18px;
+  font-weight: 600;
+}
