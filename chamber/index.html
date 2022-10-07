@@ -13,6 +13,10 @@
       href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/0db8271eaf.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Chamber Home Page</title>
     <meta
       name="description"
@@ -21,30 +25,89 @@
   </head>
   <body>
     <header>
-      <div class="logo-name">
+      <div class="top-header">
+        <div class="logo-block">
+          <img
+            class="logo"
+            src="images/final-chamber-logo.png"
+            alt="Village of Oswego custom logo"
+          />
+          <div class="name-block">
+            <h1 class="town-name">Village of Oswego</h1>
+            <p class="description">Chamber of Commerce</p>
+          </div>
+        </div>
+        <nav>
+          <a href="https://www.facebook.com/VillageofOswego"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://www.linkedin.com/company/village-of-oswego/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <ul class="navigation">
+            <li>
+              <a href="#" onclick="toggleMenu()"><i class="fa fa-bars"></i></a>
+            </li>
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <p id="current-date"></p>
+    </header>
+    <main>
+      <section class="hero">
+        <p>Hero with site name and call to action</p>
+      </section>
+      <section class="event">
+        <p>Event</p>
+      </section>
+      <section class="weather">
+        <p>Weather</p>
+      </section>
+      <section class="news">
+        <p>News Release</p>
+      </section>
+      <section class="spotlight">
+        <div class="spotlight1">
+          <p>Spotlight 1</p>
+        </div>
+        <div class="spotlight2">
+          <p>Spotlight 2</p>
+        </div>
+        <div class="spotlight3">
+          <p>Spotlight 3</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="top-footer">
         <img
           class="logo"
           src="images/final-chamber-logo.png"
           alt="Village of Oswego custom logo"
         />
-        <div class="name-block">
-          <h1 class="town-name">Village of Oswego</h1>
-          <p class="description">Chamber of Commerce</p>
+        <div class="info">
+          <h4>Oswego Chamber of Commerce</h4>
+          <p>100 Parkers Miller<br />Oswego, IL 60543</p>
+          <p>(630) 554-3618</p>
         </div>
+        <p class="location">
+          <a
+            href="https://www.google.com/maps/dir//100+Parkers+Ml,+Oswego,+IL+60543/@41.6860233,-88.3601947,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x880eee6132f74d07:0xa346a725a5a0d50c!2m2!1d-88.358006!2d41.6860233!3e0"
+            >Location</a
+          >
+        </p>
       </div>
-      <nav>
-        <ul>
-          <li><a href="#">Discover</a></li>
-          <li><a href="#">Directory</a></li>
-          <li><a href="#">Join</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-      <!-- Add social media logo's with link here -->
-      <p id="current-date"></p>
-    </header>
-    <main></main>
-    <footer></footer>
+      <footer class="base">
+        <p>&copy; <span id="current-year"></span> Oswego Chamber</p>
+        <p><strong>Hunter Blake</strong></p>
+        <p>WDD 230 Project</p>
+        <p id="last-update"></p>
+      </footer>
+    </footer>
     <script src="scripts/main.js"></script>
   </body>
 </html>
