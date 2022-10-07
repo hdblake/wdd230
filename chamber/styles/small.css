@@ -11,50 +11,183 @@ body {
   max-width: 1000px;
 }
 
+/* Header CSS */
 header {
+  background-color: var(--main-color3);
+  color: var(--main-color1);
+  padding-bottom: 6px;
+}
+
+.top-header {
+  padding: 8px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--main-color3);
-  width: 100%;
-  padding: 6px;
-  border-radius: 8px;
+  margin-bottom: 15px;
+  width: 98%;
 }
 
 .logo {
-  width: 100px;
-  height: 100px;
+  width: 85px;
+  height: 85px;
 }
 
-.logo-name {
+.logo-block {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
 }
 
 .name-block {
-  text-align: center;
-  margin-left: 50px;
-  color: var(--main-color1);
-  font-weight: 600;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 10px;
 }
 
 .town-name {
   margin-bottom: -10px;
 }
 
-nav ul {
+nav {
   display: flex;
-  margin-left: 80px;
+  align-items: center;
 }
 
-nav ul li {
-  list-style: none;
-  margin-right: 30px;
-}
-
-a {
-  text-decoration: none;
+.fa {
   color: var(--main-color1);
+}
+
+.fa-brands {
+  color: var(--main-color1);
+  letter-spacing: 8px;
   font-size: 18px;
-  font-weight: 600;
+}
+
+.navigation {
+  list-style: none;
+  text-align: center;
+  padding: 6px;
+  font-size: 18px;
+}
+
+.navigation li:first-child {
+  display: block;
+}
+
+.navigation li {
+  display: none;
+}
+
+.navigation a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+ul.navigation.responsive {
+  margin: 0;
+  padding: 4px;
+}
+
+.responsive {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.responsive {
+  background-color: var(--main-color2);
+  border-radius: 6px;
+}
+
+.responsive li {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.responsive a {
+  color: var(--main-color1);
+  font-weight: bold;
+}
+
+#current-date {
+  text-align: center;
+  width: 95%;
+  margin: 0 auto;
+  padding: 3px;
+  background-color: var(--main-color2);
+  border: 2px solid var(--main-color1);
+}
+
+/* Main CSS */
+main {
+  width: 95%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 200px);
+  gap: 0.5rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+main section {
+  grid-column: span 1;
+  border: 1px solid gray;
+  background-color: lightgray;
+}
+
+.spotlight {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  grid-row: span 2;
+  display: grid;
+  grid-template-rows: 2 150px;
+}
+
+.spotlight1,
+.spotlight2 {
+  border: 1px solid gray;
+  width: 95%;
+  margin: auto;
+  grid-row: span 2;
+  height: 100%;
+}
+
+.spotlight3 {
+  display: none;
+}
+
+/* Footer CSS */
+footer {
+  background-color: var(--main-color3);
+  color: var(--main-color1);
+  padding: 8px;
+}
+
+.top-footer,
+.base {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.top-footer {
+  text-align: center;
+  font-size: 18px;
+}
+
+.location a {
+  color: var(--main-color1);
+  text-decoration: none;
+}
+
+.base {
+  border-top: 1px solid var(--main-color2);
+  text-align: center;
+  font-size: 15px;
+}
+
+.base p {
+  margin-bottom: -8px;
 }
