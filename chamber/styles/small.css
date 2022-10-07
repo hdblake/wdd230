@@ -138,6 +138,10 @@ main section {
   background-color: lightgray;
 }
 
+.join {
+  display: none;
+}
+
 .spotlight {
   padding-top: 13px;
   padding-bottom: 13px;
