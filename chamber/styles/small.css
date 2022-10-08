@@ -167,31 +167,41 @@ main section {
 footer {
   background-color: var(--main-color3);
   color: var(--main-color1);
-  padding: 8px;
-}
-
-.top-footer,
-.base {
-  width: 95%;
-  margin: 0 auto;
-}
-
-.top-footer {
+  padding: 6px;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  font-size: 18px;
 }
 
-.location a {
+.footer-logo-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 85px;
+  height: 85px;
+}
+
+.contact-block a {
   color: var(--main-color1);
-  text-decoration: none;
 }
 
 .base {
   border-top: 1px solid var(--main-color2);
-  text-align: center;
-  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
 }
 
-.base p {
-  margin-bottom: -8px;
+.base span{
+  margin-top: 15px;
+}
+
+.seperate {
+  display: none;
 }
