@@ -155,6 +155,7 @@ main section {
   width: 100%;
   grid-row: span 2;
   height: 100%;
+  padding: 0.5rem;
 }
 
 .spotlight3 {
