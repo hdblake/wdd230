@@ -122,18 +122,16 @@ ul.navigation.responsive {
 
 /* Main CSS */
 main {
-  width: 95%;
-  margin: auto;
+  margin: 1rem;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(6, 200px);
   gap: 0.5rem;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 main section {
   grid-column: span 1;
+  padding: 1rem;
   border: 1px solid gray;
   background-color: lightgray;
 }
@@ -153,8 +151,8 @@ main section {
 .spotlight1,
 .spotlight2 {
   border: 1px solid gray;
-  width: 95%;
   margin: auto;
+  width: 100%;
   grid-row: span 2;
   height: 100%;
 }
@@ -198,7 +196,7 @@ footer {
   font-size: 14px;
 }
 
-.base span{
+.base span {
   margin-top: 15px;
 }
 
