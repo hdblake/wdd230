@@ -60,7 +60,7 @@
   .spotlight3 {
     display: block;
     border: 1px solid gray;
-    width: 95%;
+    width: 100%;
     margin: auto;
     grid-row: span 2;
     height: 100%;
