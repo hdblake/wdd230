@@ -1,4 +1,6 @@
 @media only screen and (min-width: 32em) {
+  /* Main CSS */
+
   main {
     grid-template-columns: 65% 1fr;
     grid-template-rows: repeat(5, 200px);
@@ -26,8 +28,19 @@
     grid-row: 4/5;
   }
 
+  /* Footer CSS */
+
   footer {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-logo-block {
+    flex-direction: row;
+  }
+
+  .footer-logo-block section {
+    margin-left: 10px;
+    font-size: 16px;
   }
 
   .top-footer {
