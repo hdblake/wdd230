@@ -1,6 +1,6 @@
 @media only screen and (min-width: 32em) {
   main {
-    grid-template-columns: 1fr 200px;
+    grid-template-columns: 65% 1fr;
     grid-template-rows: repeat(5, 200px);
   }
 
@@ -26,30 +26,33 @@
     grid-row: 4/5;
   }
 
-  /* Footer CSS */
   footer {
     grid-template-columns: 1fr 1fr;
   }
 
-  .footer-logo-block {
-    flex-direction: row;
+  .top-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
-    justify-content: center;
-    text-align: left;
+  }
+
+  .logo-block {
+    display: flex;
   }
 
   .base {
-    grid-column: span 2;
     flex-direction: row;
+    grid-column: span 2;
     justify-content: center;
+    font-size: 15px;
   }
 
-  .base span{
-    padding: 2px;
+  .base span {
+    margin-left: 2px;
+    margin-right: 2px;
   }
 
   .seperate {
-    display: block;
+    display: inline;
   }
-
 }
