@@ -178,11 +178,16 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .footer-logo {
   width: 85px;
   height: 85px;
+}
+
+.footer-logo-block h4 {
+  margin-bottom: -15px;
 }
 
 .contact-block a {
