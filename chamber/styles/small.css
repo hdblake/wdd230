@@ -109,6 +109,13 @@ ul.navigation.responsive {
 .responsive a {
   color: var(--main-color1);
   font-weight: bold;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.responsive a:hover {
+  background-color: var(--main-color1);
+  color: var(--main-color3);
 }
 
 #current-date {

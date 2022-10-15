@@ -19,6 +19,14 @@
     margin-left: 20px;
     font-size: 22px;
     color: var(--main-color1);
+    padding: 4px;
+    font-weight: bold;
+  }
+
+  .navigation a:hover {
+    background-color: var(--main-color1);
+    color: var(--main-color2);
+    border-radius: 6px;
   }
 
   .navigation li:first-child {
