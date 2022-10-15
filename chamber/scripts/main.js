@@ -7,9 +7,12 @@ const fullDate = new Intl.DateTimeFormat("en-UK", { dateStyle: "full" }).format(
 headerDate.innerHTML = `${fullDate}`;
 
 // Script for hamburger menu button in small/medium css view
+const mainNav = document.querySelector('.navigation');
 function toggleMenu() {
   document.getElementsByClassName('navigation')[0].classList.toggle('responsive');
 }
+
+window.onresize = () => {if (window.innerWidth > 991) mainNav.classList.remove('responsive')};
 
 // Script for footer
 const d = new Date();
