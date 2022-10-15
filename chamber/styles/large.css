@@ -21,7 +21,7 @@
     color: var(--main-color1);
   }
 
-  .responsive li {
+  .navigation:first-child {
     display: none;
     padding: 0;
     margin: 0;
