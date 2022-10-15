@@ -133,7 +133,50 @@ main section {
   grid-column: span 1;
   padding: 1rem;
   border: 1px solid gray;
-  background-color: lightgray;
+  background-color: var(--main-color1);
+  text-align: center;
+}
+
+main section h3 {
+  color: var(--main-color2);
+  font-size: 21px;
+  margin-top: -4px;
+}
+
+main section p {
+  color: var(--main-color3);
+  font-size: 15px;
+}
+
+.hero {
+  background-image: url('../images/birds-eye-view.jpg');
+  background-position: center;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.hero h3 {
+  color: var(--main-color1);
+  text-align: left;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.hero button {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid var(--main-color1);
+  background-color: var(--main-color2);
+  color: var(--main-color1);
+  font-weight: 700;
+}
+
+.forecast p {
+  font-size: 25px;
+  display: inline;
 }
 
 .join {
@@ -156,6 +199,36 @@ main section {
   grid-row: span 2;
   height: 100%;
   padding: 0.5rem;
+}
+
+.spotlight i {
+  font-size: 55px;
+  color: var(--main-color2);
+}
+
+main section .spotlight-contact p {
+  font-size: 12px;
+}
+
+.spotlight1, .spotlight2, .spotlight3 {
+  position: relative;
+}
+
+.spotlight-contact {
+  position: absolute;
+  bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  left: 6px;
+  right: 6px;
+  text-align: center;
+  border-top: 1px solid var(--main-color3);
+  color: var(--main-color3);
+  font-size: 12px;
+}
+
+.spotlight-contact a {
+  color: var(--main-color2);
 }
 
 .spotlight3 {
