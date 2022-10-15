@@ -174,9 +174,31 @@ main section p {
   font-weight: 700;
 }
 
-.forecast p {
+.forecast {
+  display: flex;
+  justify-content: space-evenly;
   font-size: 25px;
-  display: inline;
+  color: var(--main-color2);
+}
+
+.coverage {
+  text-align: right;
+  font-size: 16px;
+}
+
+.wind-speed {
+  border-top: 1px solid var(--main-color3);
+}
+
+.wind-speed span {
+  margin-top: 10px;
+}
+
+.wind-speed, .wind-chill {
+  display: flex;
+  justify-content: space-evenly;
+  color: var(--main-color3);
+  font-size: 14px;
 }
 
 .join {
