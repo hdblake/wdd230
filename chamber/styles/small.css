@@ -217,7 +217,7 @@ main section p {
   padding-bottom: 13px;
   grid-row: span 2;
   display: grid;
-  grid-template-rows: 2 150px;
+  grid-template-rows: 150px 150px;
 }
 
 .spotlight1,
