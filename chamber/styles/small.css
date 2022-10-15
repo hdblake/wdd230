@@ -139,13 +139,13 @@ main section {
 
 main section h3 {
   color: var(--main-color2);
-  font-size: 21px;
+  font-size: 19px;
   margin-top: -4px;
 }
 
 main section p {
   color: var(--main-color3);
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .hero {
