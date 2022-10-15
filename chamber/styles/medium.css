@@ -35,6 +35,14 @@
     grid-row: 4/5;
   }
 
+  .join button {
+    padding: 4px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: var(--main-color2);
+    border: 2px solid var(--main-color3);
+  }
+
   .event {
     grid-column: span 2;
   }
