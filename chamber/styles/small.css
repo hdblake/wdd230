@@ -27,6 +27,13 @@ header {
   width: 98%;
 }
 
+.meet-greet {
+  background-color: var(--main-color1);
+  color: var(--main-color2);
+  padding: 8px;
+  text-align: center;
+}
+
 .logo {
   width: 85px;
   height: 85px;
