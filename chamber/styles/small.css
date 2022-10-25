@@ -156,17 +156,23 @@ main section p {
 }
 
 .hero {
-  background-image: url('../images/birds-eye-view.jpg');
-  background-position: center;
-  background-size: 100% 100%;
   position: relative;
+  padding: 0;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .hero h3 {
+  position: absolute;
   color: var(--main-color1);
   text-align: left;
   font-weight: 700;
   font-size: 28px;
+  top: 16px;
 }
 
 .hero button {
@@ -201,7 +207,8 @@ main section p {
   margin-top: 10px;
 }
 
-.wind-speed, .wind-chill {
+.wind-speed,
+.wind-chill {
   display: flex;
   justify-content: space-evenly;
   color: var(--main-color3);
@@ -239,7 +246,9 @@ main section .spotlight-contact p {
   font-size: 12px;
 }
 
-.spotlight1, .spotlight2, .spotlight3 {
+.spotlight1,
+.spotlight2,
+.spotlight3 {
   position: relative;
 }
 
