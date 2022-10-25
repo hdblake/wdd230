@@ -42,4 +42,6 @@ document.querySelector("#last-update").innerHTML = full;
 const banner = document.querySelector(".meet-greet");
 if (current.getDay() === 1 || current.getDay() === 2) {
   banner.style.display = "block";
+} else {
+  banner.style.display = "none";
 }
