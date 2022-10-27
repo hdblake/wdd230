@@ -18,7 +18,7 @@ header {
   padding-bottom: 6px;
 }
 
-.top-header {
+.header {
   padding: 8px;
   display: flex;
   align-items: center;
@@ -39,7 +39,7 @@ header {
   height: 85px;
 }
 
-.logo-block {
+.header-logo-block {
   display: flex;
   align-items: center;
 }
@@ -235,8 +235,8 @@ main section p {
   grid-template-rows: 150px;
 }
 
-.spotlight1,
-.spotlight2 {
+.spotlight-1,
+.spotlight-2 {
   border: 1px solid gray;
   margin: auto;
   width: 100%;
@@ -254,9 +254,9 @@ main section .spotlight-contact p {
   font-size: 12px;
 }
 
-.spotlight1,
-.spotlight2,
-.spotlight3 {
+.spotlight-1,
+.spotlight-2,
+.spotlight-3 {
   position: relative;
 }
 
@@ -277,7 +277,7 @@ main section .spotlight-contact p {
   color: var(--main-color2);
 }
 
-.spotlight3 {
+.spotlight-3 {
   display: none;
 }
 

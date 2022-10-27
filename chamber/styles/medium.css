@@ -1,7 +1,7 @@
 @media only screen and (min-width: 32em) {
   /* Header CSS */
 
-  .top-header {
+  .header {
     width: 95%;
     margin: auto;
   }
@@ -68,7 +68,7 @@
     align-items: center;
   }
 
-  .logo-block {
+  .header-logo-block {
     display: flex;
   }
 

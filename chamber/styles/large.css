@@ -9,7 +9,7 @@
     margin-right: 60px;
   }
 
-  .top-header {
+  .header {
     justify-content: space-between;
     width: 95%;
     margin: auto;
@@ -69,7 +69,7 @@
     grid-gap: 0;
   }
 
-  .spotlight3 {
+  .spotlight-3 {
     display: block;
     border: 1px solid gray;
     width: 100%;
