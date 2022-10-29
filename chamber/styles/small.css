@@ -302,6 +302,12 @@ ul.navigation.responsive {
   color: var(--main-color2);
 }
 
+/* DISCOVER PAGE CSS STYLING */
+
+#discover {
+  display: grid;
+}
+
 /* FOOTER CSS STYLING */
 
 footer {
