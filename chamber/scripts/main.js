@@ -12,7 +12,7 @@ function toggleMenu() {
   document
     .getElementsByClassName("navigation")[0]
     .classList.toggle("responsive");
-}
+};
 
 window.onresize = () => {
   if (window.innerWidth > 991) mainNav.classList.remove("responsive");
@@ -20,21 +20,22 @@ window.onresize = () => {
 
 // Script for footer
 const d = new Date();
-
 let year = d.getFullYear();
 document.querySelector("#current-year").innerHTML = year;
-
 let dateModified = new Date(document.lastModified);
+
 let date = dateModified.toLocaleString("en-US", {
   month: "2-digit",
   day: "2-digit",
   year: "numeric",
 });
+
 let time = dateModified.toLocaleString("en-GB", {
   hour: "2-digit",
   minute: "2-digit",
   second: "2-digit",
 });
+
 let full = `Last Updated: ${date} ${time}`;
 document.querySelector("#last-update").innerHTML = full;
 
@@ -44,4 +45,4 @@ if (current.getDay() === 1 || current.getDay() === 2) {
   banner.style.display = "block";
 } else {
   banner.style.display = "none";
-}
+};
