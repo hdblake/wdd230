@@ -1,82 +1,168 @@
 @media only screen and (min-width: 32em) {
-  /* Header CSS */
+  /* HEADER CSS STYLING */
 
   .header {
-    width: 95%;
-    margin: auto;
+    padding: 6px;
   }
 
-  /* Main CSS */
+  .meet-greet {
+    padding: 6px;
+    font-size: 16px;
+  }
 
-  main {
+  .logo {
+    width: 85px;
+    height: 85px;
+  }
+
+  .name-block {
+    font-size: 14px;
+    margin-left: 8px;
+  }
+
+  nav {
+    font-size: 22px;
+  }
+
+  .fa-brands {
+    letter-spacing: 20px;
+  }
+
+  .responsive a {
+    padding: 4px;
+  }
+
+  #current-date {
+    font-size: 16px;
+    padding: 5px;
+  }
+
+  /* CHAMBER HOME CSS STYLING */
+
+  #chamber {
     grid-template-columns: 1fr 1fr 225px;
-    grid-template-rows: repeat(5, 200px);
+    grid-template-rows: repeat(5, 225px);
   }
 
-  .hero {
+  #chamber section {
+    padding: 8px;
+  }
+
+  #chamber h3 {
+    font-size: 20px;
+    margin-top: 6px;
+  }
+
+  #chamber .hero {
     grid-column: span 3;
     grid-row: 1/2;
   }
 
-  .news {
+  #chamber .news {
     grid-column: span 3;
     grid-row: 2/3;
   }
 
-  .spotlight {
+  #chamber .hero h3 {
+    font-size: 26px;
+    top: 12px;
+    left: 12px;
+  }
+
+  .hero button {
+    font-size: 20px;
+  }
+
+  #chamber .spotlight {
     grid-column: span 3;
     grid-row: 3/4;
     grid-template-columns: 1fr 1fr;
   }
 
-  .join {
+  .spotlight i {
+    margin-top: -8px;
+  }
+
+  .spotlight-contact {
+    margin-bottom: -6px;
+  }
+
+  #chamber .spotlight .spotlight-contact p {
+    font-size: 15px;
+  }
+
+  #chamber .spotlight .spotlight-contact p:nth-of-type(1) {
+    margin-top: 10px;
+  }
+
+  #chamber .join {
     display: block;
     grid-column: span 3;
     grid-row: 4/5;
   }
 
-  .join button {
-    padding: 4px;
-    width: 100%;
+  #chamber .join button {
+    padding: 12px;
+    width: 98%;
     border-radius: 8px;
     background-color: var(--main-color2);
     border: 2px solid var(--main-color3);
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--main-color1);
   }
 
-  .event {
+  .event p, .news p, .join p {
+    font-size: 16px;
+    color: var(--main-color3);
+  }
+
+  #chamber .event {
     grid-column: span 2;
   }
 
   /* Footer CSS */
 
   footer {
+    display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 50px;
   }
 
   .footer-logo-block {
+    grid-column: 1/2;
+    grid-row: 1/2;
     flex-direction: row;
+    justify-content: flex-end;
   }
 
-  .footer-logo-block section {
-    margin-left: 10px;
-    font-size: 16px;
+  .footer-logo-block span {
+    font-size: 20px;
   }
 
-  .top-footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-  }
-
-  .header-logo-block {
-    display: flex;
+  .footer-name-block {
+    text-align: left;
+    margin-left: 8px;
+    font-size: 17px;
   }
 
   .base {
     flex-direction: row;
+    grid-row: 2/3;
     grid-column: span 2;
-    justify-content: center;
     font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: -5px;
+  }
+
+  .base span:nth-of-type(1) {
+    margin-top: 0px;
+  }
+  
+  .base span {
+    margin-bottom: 0px;
   }
 
   .base span {
