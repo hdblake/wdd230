@@ -65,14 +65,16 @@
         </section>
         <section class="weather">
           <h3>Weather</h3>
-          <span><i class="fa-solid fa-cloud-sun"></i></span>
-          <span class="temp-in-f">15</span><span>&#8457;</span>
-          <p class="coverage">Partly Cloudy</p>
-          <div class="wind-speed">
-            <span>Wind Speed: </span><span class="speed">28</span>
+          <div class="forecast">
+            <i class="fa-solid fa-cloud-sun"></i>
+            <p><span class="temp">45 </span>&#8457;</p>
+            <p class="coverage">Partly Cloudy</p>
           </div>
-          <div class="wind-chill">
-            <span>Wind Chill: </span><span class="chill"></span>
+          <div class="wind-factor">
+            <span class="wind-speed">Wind Speed: </span>
+            <span><span class="speed">8</span> MPH</span>
+            <span class="wind-chill">Wind Chill: </span>
+            <span class="chill"></span>
           </div>
         </section>
         <section class="news">
@@ -87,10 +89,7 @@
             <i class="fa-solid fa-ticket"></i>
             <div class="spotlight-contact">
               <p>No Available Email</p>
-              <span>(630) 264-9831 |</span>
-              <span>
-                <a href="https://www.classiccinemas.com/program?location=kendall">Website</a>
-              </span>
+              <p>(630) 264-9831 | <a href="https://www.classiccinemas.com/program?location=kendall">Website</a></p>
             </div>
           </div>
           <div class="spotlight-2">
@@ -98,10 +97,7 @@
             <i class="fa-solid fa-golf-ball-tee"></i>
             <div class="spotlight-contact">
               <p>No Available Email</p>
-              <span>(630) 554-3939 |</span>
-              <span>
-                <a href="https://www.foxbendgolfcourse.com/">Website</a>
-              </span>
+              <p>(630) 554-3939 | <a href="https://www.foxbendgolfcourse.com/">Website</a></p>
             </div>
           </div>
           <div class="spotlight-3">
@@ -109,10 +105,7 @@
             <i class="fa-solid fa-school"></i>
             <div class="spotlight-contact">
               <p>ohwebmaster@sd308.org</p>
-              <span>(630) 636-2000 |</span>
-              <span>
-                <a href="https://www.sd308.org/ohs">Website</a>
-              </span>
+              <p>(630) 636-2000 | <a href="https://www.sd308.org/ohs">Website</a></p>
             </div>
           </div>
         </section>
@@ -120,33 +113,27 @@
     </main>
     <footer>
       <div class="footer-logo-block">
-        <img class="logo" src="images/final-chamber-logo.png" alt="Village of Oswego custom logo">
-        <section>
-          <h4>Oswego Chamber of Commerce</h4>
-          <p>100 Parkers Miller<br>Oswego, IL 60543</p>
-        </section>
+        <img class="footer-logo" src="images/final-chamber-logo.png" alt="Village of Oswego custom logo">
+        <p><span>Oswego Chamber of Commerce</span>
+        <br>100 Parkers Miller
+        <br>Oswego, IL 60543</p>
       </div>
       <div class="contact-block">
         <p>*No Email Available*</p>
         <p>(630) 554-3618</p>
         <p>
-          <a
-            href="https://www.google.com/maps/dir//100+Parkers+Ml,+Oswego,+IL+60543/@41.6860233,-88.3601947,17zdata=!4m9!4m8!1m0!1m5!1m1!1s0x880eee6132f74d07:0xa346a725a5a0d50c!2m2!1d-88.358006!2d41.6860233!3e0">Location</a>
+          <a href="https://www.google.com/maps/place/100+Parkers+Ml,+Oswego,+IL+60543/@41.6860273,-88.3601947,17z/data=!3m1!4b1!4m5!3m4!1s0x880eee6132f74d07:0xa346a725a5a0d50c!8m2!3d41.6860233!4d-88.358006">Location Map</a>
         </p>
       </div>
       <div class="base">
-        <span>&copy;
-          <span id="current-year"></span>
-          Oswego Chamber
+        <p>&copy; <span id="current-year"></span> Oswego Chamber
+          <span class="seperate">|</span>
+          <br><span class="my-name">Hunter Blake</span>
+          <span class="seperate">|</span>
+          <br>WDD230 Project
+          <br><span class="seperate">|</span>
+          <span id="last-update"></span>
         </span>
-        <span class="seperate">|</span>
-        <span>
-          <span>Hunter Blake</span>
-        </span>
-        <span class="seperate">|</span>
-        <span>WDD 230 Project</span>
-        <span class="seperate">|</span>
-        <span id="last-update"></span>
       </div>
     </footer>
     <script src="scripts/main.js"></script>
