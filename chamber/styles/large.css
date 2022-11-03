@@ -97,6 +97,12 @@
     grid-row: 3/4;
   }
 
+  /* DISCOVER PAGE CSS STYLING */
+
+  #chamber picture {
+    border: 1px solid var(--main-color2);
+  }
+
   /* FOOTER CSS STYLING */
 
   .footer-logo-block {
