@@ -331,6 +331,10 @@ ul.navigation.responsive {
 	letter-spacing: 1px;
 }
 
+#discover picture img {
+	width: 90%;
+}
+
 .oswego p,
 .oswego-east p,
 .kendall-11 p,
