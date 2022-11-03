@@ -97,10 +97,14 @@
     grid-row: 3/4;
   }
 
-  /* DISCOVER PAGE CSS STYLING */
-
   #chamber picture {
     border: 1px solid var(--main-color2);
+  }
+
+  /* DISCOVER PAGE CSS STYLING */
+
+  #discover p {
+    font-size: 16px;
   }
 
   /* FOOTER CSS STYLING */

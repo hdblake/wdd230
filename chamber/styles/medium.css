@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32em) {
+@media only screen and (min-width: 31em) {
   /* HEADER CSS STYLING */
 
   .header {
@@ -121,7 +121,17 @@
     grid-column: span 2;
   }
 
-  /* Footer CSS */
+  /* DISCOVER PAGE CSS STYLING */
+
+  #discover section {
+    padding: 8px;
+  }
+
+  #discover h2 {
+    font-size: 24px;
+  }
+
+  /* FOOTER CSS STYLING */
 
   footer {
     display: grid;
