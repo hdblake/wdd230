@@ -131,6 +131,10 @@
     font-size: 24px;
   }
 
+  #discover picture img:hover {
+    box-shadow: 0 0 30px var(--main-color3);
+  }
+
   /* FOOTER CSS STYLING */
 
   footer {
