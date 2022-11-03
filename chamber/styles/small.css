@@ -340,6 +340,12 @@ ul.navigation.responsive {
 	font-size: 14px;
 }
 
+.visitors p, .visitors span {
+	font-size: 16px;
+	font-weight: bold;
+	color: var(--main-color3);
+}
+
 /* FOOTER CSS STYLING */
 
 footer {
