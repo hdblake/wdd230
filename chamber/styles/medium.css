@@ -1,190 +1,231 @@
 @media only screen and (min-width: 31em) {
-  /* HEADER CSS STYLING */
+	/* HEADER CSS STYLING */
 
-  .header {
-    padding: 6px;
-  }
+	.header {
+		padding: 6px;
+	}
 
-  .meet-greet {
-    padding: 6px;
-    font-size: 16px;
-  }
+	.meet-greet {
+		padding: 6px;
+		font-size: 16px;
+	}
 
-  .logo {
-    width: 85px;
-    height: 85px;
-  }
+	.logo {
+		width: 85px;
+		height: 85px;
+	}
 
-  .name-block {
-    font-size: 14px;
-    margin-left: 8px;
-  }
+	.name-block {
+		font-size: 14px;
+		margin-left: 8px;
+	}
 
-  nav {
-    font-size: 22px;
-  }
+	nav {
+		font-size: 22px;
+	}
 
-  .fa-brands {
-    letter-spacing: 20px;
-  }
+	.fa-brands {
+		letter-spacing: 20px;
+	}
 
-  .responsive a {
-    padding: 4px;
-  }
+	.responsive a {
+		padding: 4px;
+	}
 
-  #current-date {
-    font-size: 16px;
-    padding: 5px;
-  }
+	#current-date {
+		font-size: 16px;
+		padding: 5px;
+	}
 
-  /* CHAMBER HOME CSS STYLING */
+	/* CHAMBER HOME CSS STYLING */
 
-  #chamber {
-    grid-template-columns: 1fr 1fr 225px;
-    grid-template-rows: repeat(5, 225px);
-  }
+	#chamber {
+		grid-template-columns: 1fr 1fr 225px;
+		grid-template-rows: repeat(5, 225px);
+	}
 
-  #chamber section {
-    padding: 8px;
-  }
+	#chamber section {
+		padding: 8px;
+	}
 
-  #chamber h3 {
-    font-size: 20px;
-    margin-top: 6px;
-  }
+	#chamber h3 {
+		font-size: 20px;
+		margin-top: 6px;
+	}
 
-  #chamber .hero {
-    grid-column: span 3;
-    grid-row: 1/2;
-  }
+	#chamber .hero {
+		grid-column: span 3;
+		grid-row: 1/2;
+	}
 
-  #chamber .news {
-    grid-column: span 3;
-    grid-row: 2/3;
-  }
+	#chamber .news {
+		grid-column: span 3;
+		grid-row: 2/3;
+	}
 
-  #chamber .hero h3 {
-    font-size: 26px;
-    top: 12px;
-    left: 12px;
-  }
+	#chamber .hero h3 {
+		font-size: 26px;
+		top: 12px;
+		left: 12px;
+	}
 
-  .hero button {
-    font-size: 20px;
-  }
+	.hero button {
+		font-size: 20px;
+	}
 
-  #chamber .spotlight {
-    grid-column: span 3;
-    grid-row: 3/4;
-    grid-template-columns: 1fr 1fr;
-  }
+	#chamber .spotlight {
+		grid-column: span 3;
+		grid-row: 3/4;
+		grid-template-columns: 1fr 1fr;
+	}
 
-  .spotlight i {
-    margin-top: -8px;
-  }
+	.spotlight i {
+		margin-top: -8px;
+	}
 
-  .spotlight-contact {
-    margin-bottom: -6px;
-  }
+	.spotlight-contact {
+		margin-bottom: -6px;
+	}
 
-  #chamber .spotlight .spotlight-contact p {
-    font-size: 15px;
-  }
+	#chamber .spotlight .spotlight-contact p {
+		font-size: 15px;
+	}
 
-  #chamber .spotlight .spotlight-contact p:nth-of-type(1) {
-    margin-top: 10px;
-  }
+	#chamber .spotlight .spotlight-contact p:nth-of-type(1) {
+		margin-top: 10px;
+	}
 
-  #chamber .join {
-    display: block;
-    grid-column: span 3;
-    grid-row: 4/5;
-  }
+	#chamber .join {
+		display: block;
+		grid-column: span 3;
+		grid-row: 4/5;
+	}
 
-  #chamber .join button {
-    padding: 12px;
-    width: 98%;
-    border-radius: 8px;
-    background-color: var(--main-color2);
-    border: 2px solid var(--main-color3);
-    font-size: 22px;
-    font-weight: bold;
-    color: var(--main-color1);
-  }
+	#chamber .join button {
+		padding: 12px;
+		width: 98%;
+		border-radius: 8px;
+		background-color: var(--main-color2);
+		border: 2px solid var(--main-color3);
+		font-size: 22px;
+		font-weight: bold;
+		color: var(--main-color1);
+	}
 
-  .event p, .news p, .join p {
-    font-size: 16px;
-    color: var(--main-color3);
-  }
+	.event p,
+	.news p,
+	.join p {
+		font-size: 16px;
+		color: var(--main-color3);
+	}
 
-  #chamber .event {
-    grid-column: span 2;
-  }
+	#chamber .event {
+		grid-column: span 2;
+	}
 
-  /* DISCOVER PAGE CSS STYLING */
+	/* DISCOVER PAGE CSS STYLING */
 
-  #discover section {
-    padding: 8px;
-  }
+	#discover section {
+		padding: 8px;
+	}
 
-  #discover h2 {
-    font-size: 24px;
-  }
+	#discover h2 {
+		font-size: 24px;
+	}
 
-  #discover picture img:hover {
-    box-shadow: 0 0 30px var(--main-color3);
-  }
+	#discover picture img:hover {
+		box-shadow: 0 0 30px var(--main-color3);
+	}
 
-  /* FOOTER CSS STYLING */
+	/* JOIN PAGE CSS STYLING */
 
-  footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 50px;
-  }
+	form {
+		border-radius: 8px;
+		padding: 8px;
+	}
 
-  .footer-logo-block {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    flex-direction: row;
-    justify-content: flex-end;
-  }
+	form h2 {
+		font-size: 28px;
+		letter-spacing: 1px;
+	}
 
-  .footer-logo-block span {
-    font-size: 20px;
-  }
+	#form .contact-info label,
+	#form .business label {
+		font-size: 18px;
+	}
 
-  .footer-name-block {
-    text-align: left;
-    margin-left: 8px;
-    font-size: 17px;
-  }
+	#form .contact-info input {
+		width: 80%;
+		height: 30px;
+	}
 
-  .base {
-    flex-direction: row;
-    grid-row: 2/3;
-    grid-column: span 2;
-    font-size: 15px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 8px;
-    margin-bottom: -5px;
-  }
+	#form .member-group {
+		font-size: 18px;
+	}
 
-  .base span:nth-of-type(1) {
-    margin-top: 0px;
-  }
-  
-  .base span {
-    margin-bottom: 0px;
-  }
+	#form .member-group input {
+		margin-right: 14px;
+	}
 
-  .base span {
-    margin-left: 2px;
-    margin-right: 2px;
-  }
+	#form .business input {
+		width: 80%;
+		height: 30px;
+	}
 
-  .seperate {
-    display: inline;
-  }
+	#form .business textarea {
+		width: 80%;
+	}
+
+	/* FOOTER CSS STYLING */
+
+	footer {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 50px;
+	}
+
+	.footer-logo-block {
+		grid-column: 1/2;
+		grid-row: 1/2;
+		flex-direction: row;
+		justify-content: flex-end;
+	}
+
+	.footer-logo-block span {
+		font-size: 20px;
+	}
+
+	.footer-name-block {
+		text-align: left;
+		margin-left: 8px;
+		font-size: 17px;
+	}
+
+	.base {
+		flex-direction: row;
+		grid-row: 2/3;
+		grid-column: span 2;
+		font-size: 15px;
+		justify-content: center;
+		align-items: center;
+		margin-top: 8px;
+		margin-bottom: -5px;
+	}
+
+	.base span:nth-of-type(1) {
+		margin-top: 0px;
+	}
+
+	.base span {
+		margin-bottom: 0px;
+	}
+
+	.base span {
+		margin-left: 2px;
+		margin-right: 2px;
+	}
+
+	.seperate {
+		display: inline;
+	}
 }

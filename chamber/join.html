@@ -43,41 +43,52 @@
       <p id="current-date"></p>
     </header>
     <main>
-      <div class="form">
+      <div id="form">
         <form method="get" action="thankyou.html">
           <div class="contact-info">
             <h2>Contact Information</h2>
-            <label for="fname" id="fname-label">First Name:</label>
-            <input type="text" name="fname" id="fname" required>
-            <label for="lname" id="lname-label">Last Name:</label>
-            <input type="text" name="lname" id="lname" required>
-            <label for="email" id="email-label">Email:</label>
-            <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
-            <label for="phone" id="phone-label">Phone Number:</label>
-            <input type="tel" name="phone" id="phone" placeholder="(123)456-7890" required>
+            <label for="fname" id="fname-label">First Name:
+              <input type="text" name="fname" id="fname" required>
+            </label>
+            <label for="lname" id="lname-label">Last Name:
+              <input type="text" name="lname" id="lname" required>
+            </label>
+            <label for="email" id="email-label">Email:
+              <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+            </label>
+            <label for="phone" id="phone-label">Phone #:
+              <input type="tel" name="phone" id="phone" placeholder="(123)456-7890" required>
+            </label>
           </div>
           <br>
           <div class="member-group">
             <h2>Membership Level</h2>
-            <input type="radio" name="member-level" id="nonprofit" checked>
-            <label for="nonprofit">Non-Profit (Free)</label>
-            <input type="radio" name="member-level" id="bronze">
-            <label for="bronze">Bronze ($5/month)</label>
-            <input type="radio" name="member-level" id="silver">
-            <label for="silver">Silver ($10/month)</label>
-            <input type="radio" name="member-level" id="gold">
-            <label for="gold">Gold ($15/month)</label>
+            <label for="nonprofit">
+              <input type="radio" name="member-level" id="nonprofit" checked>Non-Profit (Free)
+            </label>
+            <label for="bronze">
+              <input type="radio" name="member-level" id="bronze">Bronze ($5/month)
+            </label>
+            <label for="silver">
+              <input type="radio" name="member-level" id="silver">Silver ($10/month)
+            </label>
+            <label for="gold">
+              <input type="radio" name="member-level" id="gold">Gold ($15/month)
+            </label>
           </div>
           <br>
           <div class="business">
             <h2>Business Information</h2>
-            <label for="bname">Business Name:</label>
-            <input type="text" name="bname" id="bname" required>
-            <label for="title">Position/Title:</label>
-            <input type="text" name="title" id="title" minlength="7" pattern="^[a-zA-Z][a-zA-Z0-9 -]">
-            <label for="description">Business Description:</label>
-            <textarea name="description" id="description" placeholder="Please describe your business here"
-              required></textarea>
+            <label for="bname" id="bname-label">Business Name:
+              <input type="text" name="bname" id="bname" required>
+            </label>
+            <label for="title" id="title-label">Position/Title:
+              <input type="text" name="title" id="title" minlength="7" pattern="^[a-zA-Z][a-zA-Z0-9 -]">
+            </label>
+            <label for="description" id="description-label">Description:
+              <textarea name="description" id="description" placeholder="Please describe your business here"
+                required></textarea>
+            </label>
           </div>
           <br>
           <input type="hidden" id="date-time" name="date-time">
