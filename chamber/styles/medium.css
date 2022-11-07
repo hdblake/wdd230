@@ -141,7 +141,6 @@
 
 	form {
 		border-radius: 8px;
-		padding: 8px;
 	}
 
 	form h2 {
@@ -150,30 +149,23 @@
 	}
 
 	#form .contact-info label,
-	#form .business label {
-		font-size: 18px;
+	#form .business label,
+	#form .member-group label {
+		font-size: 16px;
 	}
 
-	#form .contact-info input {
-		width: 80%;
+	#form .contact-info input,
+	#form .business input {
+		width: 75%;
 		height: 30px;
-	}
-
-	#form .member-group {
-		font-size: 18px;
 	}
 
 	#form .member-group input {
 		margin-right: 14px;
 	}
 
-	#form .business input {
-		width: 80%;
-		height: 30px;
-	}
-
 	#form .business textarea {
-		width: 80%;
+		width: 75%;
 	}
 
 	/* FOOTER CSS STYLING */

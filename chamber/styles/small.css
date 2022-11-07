@@ -372,8 +372,9 @@ form h2 {
 	color: var(--main-color2);
 }
 
-#form .contact-info label {
-	font-size: 16px;
+#form .contact-info label,
+#form .business label {
+	font-size: 14px;
 	margin-bottom: 0;
 }
 
@@ -381,14 +382,8 @@ form h2 {
 	color: var(--main-color2);
 }
 
-#fname-label,
-#lname-label,
-#email-label,
-#phone-label,
-#fname,
-#lname,
-#email,
-#phone {
+#form .contact-info label,
+#form .contact-block input {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -399,48 +394,23 @@ form h2 {
 	margin-bottom: 10px;
 }
 
-#form .contact-info input {
-	width: 70%;
-	border-radius: 8px;
-	border: none;
-}
-
-#form .member-group {
-	display: flex;
-	flex-direction: column;
-	color: var(--main-color2);
-	font-size: 16px;
-}
-
-#form .member-group label {
-	margin-bottom: 15px;
-	color: var(--main-color3);
-}
-
-#form .member-group input {
-	margin-right: 10px;
-}
-
-#bname-label,
-#title-label,
-#description-label,
-#bname,
-#title,
-#description {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-between;
-	justify-items: center;
-	align-content: center;
-	padding: 5px;
-	margin-bottom: 10px;
-}
-
+#form .contact-info input,
 #form .business input {
 	width: 70%;
 	border-radius: 8px;
 	border: none;
+}
+
+#form .business label,
+#form .business input {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	justify-items: center;
+	align-content: center;
+	padding: 5px;
+	margin-bottom: 10px;
 }
 
 #form .business label,
@@ -453,6 +423,22 @@ form h2 {
 	height: 75px;
 	border-radius: 8px;
 	border: none;
+}
+
+#form .member-group {
+	display: flex;
+	flex-direction: column;
+	color: var(--main-color2);
+}
+
+#form .member-group label {
+	margin-bottom: 15px;
+	color: var(--main-color3);
+	font-size: 14px;
+}
+
+#form .member-group input {
+	margin-right: 10px;
 }
 
 #form button {

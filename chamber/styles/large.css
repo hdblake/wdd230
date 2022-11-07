@@ -109,8 +109,40 @@
 
 	/* JOIN PAGE CSS STYLING */
 
-	form .member-group {
-		text-align: left;
+	form {
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: repeat(2, auto);
+		gap: 0.5rem;
+		align-items: flex-start;
+	}
+
+	#form .contact-info {
+		grid-column: 1/2;
+		grid-row: 1/2;
+	}
+
+	#form .business {
+		grid-column: 2/3;
+		grid-row: 1/2;
+	}
+
+	#form .member-group {
+		grid-column: 3/4;
+		grid-row: 1/2;
+	}
+
+	#form button {
+		grid-column: 2/3;
+	}
+
+	#form .contact-info input,
+	#form .business input {
+		width: 65%;
+		height: 30px;
+	}
+
+	#form .business textarea {
+		width: 65%;
 	}
 
 	/* FOOTER CSS STYLING */
