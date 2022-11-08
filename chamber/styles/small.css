@@ -345,10 +345,114 @@ ul.navigation.responsive {
 	font-size: 14px;
 }
 
-.visitors p, .visitors span {
+.visitors p,
+.visitors span {
 	font-size: 16px;
 	font-weight: bold;
 	color: var(--main-color3);
+}
+
+/* JOIN PAGE CSS STYLING */
+
+form {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin: 10px;
+	padding: 8px;
+	background-color: var(--main-color1);
+	text-align: center;
+	border-radius: 6px;
+	align-items: center;
+	justify-content: center;
+}
+
+form h2 {
+	text-decoration: var(--main-color3) underline;
+	text-underline-offset: 5px;
+	color: var(--main-color2);
+}
+
+#form .contact-info label,
+#form .business label {
+	font-size: 14px;
+	margin-bottom: 0;
+}
+
+#form .contact-info {
+	color: var(--main-color2);
+}
+
+#form .contact-info label,
+#form .contact-block input {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	justify-items: center;
+	align-content: center;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+#form .contact-info input,
+#form .business input {
+	width: 70%;
+	border-radius: 8px;
+	border: none;
+}
+
+#form .business label,
+#form .business input {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	justify-items: center;
+	align-content: center;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+#form .business label,
+#form .contact-info label {
+	color: var(--main-color3);
+}
+
+#form .business textarea {
+	width: 70%;
+	height: 75px;
+	border-radius: 8px;
+	border: none;
+}
+
+#form .member-group {
+	display: flex;
+	flex-direction: column;
+	color: var(--main-color2);
+}
+
+#form .member-group label {
+	margin-bottom: 15px;
+	color: var(--main-color3);
+	font-size: 14px;
+}
+
+#form .member-group input {
+	margin-right: 10px;
+}
+
+#form button {
+	width: 100px;
+	margin: 0 auto;
+	color: #102542;
+	background-color: var(--main-color2);
+	padding: 5px;
+	border: 2px solid var(--main-color3);
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 /* FOOTER CSS STYLING */

@@ -1,0 +1,41 @@
+table {
+	margin: 10px auto;
+	border: thin solid black;
+	box-shadow: 0 0 30px black;
+	border-collapse: collapse;
+}
+
+caption {
+	padding: 10px;
+	caption-side: bottom;
+	color: orange;
+	font-size: 0.85rem;
+}
+
+tr:first-child th,
+.highlight {
+	background-color: darkorange;
+	color: black;
+}
+
+th,
+td {
+	padding: 7px 15px;
+	border: 1px solid lightgray;
+}
+
+th {
+	background-color: orange;
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(even) {
+	background-color: orange;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: #ffd580;
+}

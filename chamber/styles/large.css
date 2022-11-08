@@ -1,123 +1,161 @@
 @media only screen and (min-width: 62em) {
-  /* HEADER CSS STYLING */
+	/* HEADER CSS STYLING */
 
-  .navigation li {
-    display: block;
-  }
+	.navigation li {
+		display: block;
+	}
 
-  .navigation {
-    display: flex;
-    margin-right: 25px;
-  }
+	.navigation {
+		display: flex;
+		margin-right: 25px;
+	}
 
-  .header {
-    justify-content: space-between;
-    width: 95%;
-  }
+	.header {
+		justify-content: space-between;
+		width: 95%;
+	}
 
-  .navigation a {
-    margin-left: 20px;
-    font-size: 24px;
-    color: var(--main-color1);
-    padding: 4px;
-    font-weight: bold;
-  }
+	.navigation a {
+		margin-left: 20px;
+		font-size: 24px;
+		color: var(--main-color1);
+		padding: 4px;
+		font-weight: bold;
+	}
 
-  .navigation a:hover {
-    background-color: var(--main-color1);
-    color: var(--main-color2);
-    border-radius: 6px;
-  }
+	.navigation a:hover {
+		background-color: var(--main-color1);
+		color: var(--main-color2);
+		border-radius: 6px;
+	}
 
-  .navigation li:first-child {
-    display: none;
-  }
+	.navigation li:first-child {
+		display: none;
+	}
 
-  .fa-brands {
-    font-size: 26px;
-  }
+	.fa-brands {
+		font-size: 26px;
+	}
 
-  .fa {
-    display: none;
-  }
+	.fa {
+		display: none;
+	}
 
-  nav {
-    flex-direction: row-reverse;
-  }
+	nav {
+		flex-direction: row-reverse;
+	}
 
-  .name-block {
-    font-size: 15px;
-    text-align: center;
-  }
+	.name-block {
+		font-size: 15px;
+		text-align: center;
+	}
 
-  /* CHAMBER HOME CSS STYLING */
+	/* CHAMBER HOME CSS STYLING */
 
-  #chamber {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: repeat(3, 225px);
-  }
+	#chamber {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: repeat(3, 225px);
+	}
 
-  #chamber .event,
-  #chamber .weather,
-  #chamber .join {
-    grid-column: 1/2;
-  }
+	#chamber .event,
+	#chamber .weather,
+	#chamber .join {
+		grid-column: 1/2;
+	}
 
-  #chamber .spotlight {
-    grid-column: 4/5;
-    grid-row: 1/4;
-    grid-template-columns: 1fr;
-    gap: 0.5rem;
-  }
+	#chamber .spotlight {
+		grid-column: 4/5;
+		grid-row: 1/4;
+		grid-template-columns: 1fr;
+		gap: 0.5rem;
+	}
 
-  .spotlight-3 {
-    display: block;
-    border: 2px solid var(--main-color2);
-    margin: 0 auto;
-    width: 100%;
-    grid-row: span 2;
-    height: 100%;
-    padding: 0.5rem;
-  }
+	.spotlight-3 {
+		display: block;
+		border: 2px solid var(--main-color2);
+		margin: 0 auto;
+		width: 100%;
+		grid-row: span 2;
+		height: 100%;
+		padding: 0.5rem;
+	}
 
-  #chamber .hero,
-  #chamber .news {
-    grid-column: 2/4;
-  }
+	#chamber .hero,
+	#chamber .news {
+		grid-column: 2/4;
+	}
 
-  #chamber .hero {
-    grid-row: 1/3;
-  }
+	#chamber .hero {
+		grid-row: 1/3;
+	}
 
-  #chamber .news {
-    grid-row: 3/4;
-  }
+	#chamber .news {
+		grid-row: 3/4;
+	}
 
-  #chamber .join {
-    grid-row: 3/4;
-  }
+	#chamber .join {
+		grid-row: 3/4;
+	}
 
-  #chamber picture {
-    border: 1px solid var(--main-color2);
-  }
+	#chamber picture {
+		border: 1px solid var(--main-color2);
+	}
 
-  /* DISCOVER PAGE CSS STYLING */
+	/* DISCOVER PAGE CSS STYLING */
 
-  #discover p {
-    font-size: 16px;
-  }
+	#discover p {
+		font-size: 16px;
+	}
 
-  /* FOOTER CSS STYLING */
+	/* JOIN PAGE CSS STYLING */
 
-  .footer-logo-block {
-    justify-content: flex-end;
-  }
+	form {
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: repeat(2, auto);
+		gap: 0.5rem;
+		align-items: flex-start;
+	}
 
-  .footer-logo-block section {
-    font-size: 18px;
-  }
+	#form .contact-info {
+		grid-column: 1/2;
+		grid-row: 1/2;
+	}
 
-  .base {
-    font-size: 16px;
-  }
+	#form .business {
+		grid-column: 2/3;
+		grid-row: 1/2;
+	}
+
+	#form .member-group {
+		grid-column: 3/4;
+		grid-row: 1/2;
+	}
+
+	#form button {
+		grid-column: 2/3;
+	}
+
+	#form .contact-info input,
+	#form .business input {
+		width: 65%;
+		height: 30px;
+	}
+
+	#form .business textarea {
+		width: 65%;
+	}
+
+	/* FOOTER CSS STYLING */
+
+	.footer-logo-block {
+		justify-content: flex-end;
+	}
+
+	.footer-logo-block section {
+		font-size: 18px;
+	}
+
+	.base {
+		font-size: 16px;
+	}
 }
