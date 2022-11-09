@@ -20,8 +20,11 @@ function displayProphets(prophet) {
 
 	h2.textContent = prophet.name + " " + prophet.lastname;
 
-	card.setAttribute("src", prophet.imageurl);
-	h2.setAttribute("alt", "Portait of " + prophet.name + " " + prophet.lastname);
+	portrait.setAttribute("src", prophet.imageurl);
+	portrait.setAttribute(
+		"alt",
+		"Portait of " + prophet.name + " " + prophet.lastname
+	);
 	portrait.setAttribute("loading", "lazy");
 
 	card.appendChild(h2);
