@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	max-width: 1200px;
+	margin: auto;
+}
+
+header {
+	text-align: center;
+	color: darkgreen;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	text-align: center;
+	gap: 0.5rem;
+}
+
+section {
+	border: 2px solid black;
+	background-color: darkgreen;
+	color: white;
+}
+
+section img {
+	width: 60%;
+	height: 60%;
+	box-shadow: 5px 5px 10px black;
+}
