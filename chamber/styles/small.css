@@ -514,3 +514,7 @@ footer {
 .seperate {
 	display: none;
 }
+
+.wireframes a {
+	color: var(--main-color1);
+}
