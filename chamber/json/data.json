@@ -1,0 +1,76 @@
+{
+  "businesses": [
+    {
+      "name": "Kendall 11",
+      "address": "95 Fifth St Oswego, IL 60543",
+      "phone": "(630) 264-9831",
+      "website": "https://www.classiccinemas.com/program?location=kendall",
+      "image": "chamber/images/directory/kendall.webp",
+      "membership": 1
+    },
+    {
+      "name": "Fox Bend Golf Course",
+      "address": "3516 US-34 Oswego, IL 60543",
+      "phone": "(630) 554-3939",
+      "website": "https://www.foxbendgolfcourse.com/",
+      "image": "chamber/images/directory/fox-bend.webp",
+      "membership": 1
+    },
+    {
+      "name": "Fox Valley Winery",
+      "address": "59 Main St Oswego, IL 60543",
+      "phone": "(630) 554-0404",
+      "website": "https://www.foxvalleywinery.com/",
+      "image": "chamber/images/directory/fox-winery.webp",
+      "membership": 1
+    },
+    {
+      "name": "My Sister's Lil Donut Shoppe",
+      "address": "25 S Madison St Oswego, IL 60543",
+      "phone": "(331) 203-2736",
+      "website": "https://www.facebook.com/mysisterslildonuts/",
+      "image": "chamber/images/directory/donut.webp",
+      "membership": 1
+    },
+    {
+      "name": "Venue 5126",
+      "address": "5126 Stephens Rd Oswego, IL 60543",
+      "phone": "(630) 554-7100",
+      "website": "https://venue5126.com/",
+      "image": "chamber/images/directory/Venue5126.webp",
+      "membership": 1
+    },
+    {
+      "name": "Village Grind",
+      "address": "19 Main St Oswego, IL 60543",
+      "phone": "(630) 554-6678",
+      "website": "27 June 1844",
+      "image": "chamber/images/directory/village-grind.webp",
+      "membership": 1
+    },
+    {
+      "name": "The Popcorn Store",
+      "address": "1690 Douglas Rd Oswego, IL 60543",
+      "phone": "(630) 554-4699",
+      "website": "https://thepopcornstores.com/",
+      "image": "chamber/images/directory/popcorn.webp",
+      "membership": 1
+    },
+    {
+      "name": "Tap House",
+      "address": "123 W Washington St Oswego, IL 60543",
+      "phone": "(630) 383-2020",
+      "website": "https://www.taphousegrills.com/oswego/",
+      "image": "chamber/images/directory/tap-house.webp",
+      "membership": 1
+    },
+    {
+      "name": "Oswego Cyclery",
+      "address": "57 Main St Oswego, IL 60543",
+      "phone": "(630) 551-2300",
+      "website": "https://www.oswegocyclery.com/",
+      "image": "chamber/images/directory/cycling.webp",
+      "membership": 1
+    }
+  ]
+}
