@@ -19,8 +19,8 @@ window.onresize = () => {
 };
 
 // Script for footer
-const d = new Date();
-let year = d.getFullYear();
+const currentDate = new Date();
+let year = currentDate.getFullYear();
 document.querySelector("#current-year").innerHTML = year;
 let dateModified = new Date(document.lastModified);
 
@@ -46,3 +46,7 @@ if (current.getDay() === 1 || current.getDay() === 2) {
 } else {
   banner.style.display = "none";
 };
+
+// Script for hidden date load
+const hidden = document.querySelector("date-time");
+hidden.innerHTML = currentDate;
