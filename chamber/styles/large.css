@@ -145,6 +145,21 @@
 		width: 65%;
 	}
 
+	/* DIRECTORY PAGE CSS STYLING */
+
+	.directory-grid {
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	}
+
+	.directory-grid section {
+		font-size: 18px;
+	}
+
+	.directory-list section {
+		font-size: 18px;
+		padding: 10px;
+	}
+
 	/* FOOTER CSS STYLING */
 
 	.footer-logo-block {

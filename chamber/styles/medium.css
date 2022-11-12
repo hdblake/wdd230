@@ -1,4 +1,4 @@
-@media only screen and (min-width: 31em) {
+@media only screen and (min-width: 30em) {
 	/* HEADER CSS STYLING */
 
 	.header {
@@ -168,12 +168,45 @@
 		width: 75%;
 	}
 
+	/* DISCOVER PAGE CSS STYLING */
+
+	.directory-grid {
+		grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+		gap: 1rem;
+	}
+
+	.directory-grid section {
+		font-size: 16px;
+		padding: 8px;
+	}
+	
+	.directory-list section {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+		padding: 8px;
+		font-size: 16px;
+		gap: 1rem;
+	}
+
+	.directory-list section h2,
+	.directory-list section p:nth-of-type(1),
+	.directory-list section p:nth-of-type(2),
+	.directory-list section a {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	
+
 	/* FOOTER CSS STYLING */
 
 	footer {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		grid-template-rows: 1fr 50px;
+		grid-template-rows: 1fr 75px;
 	}
 
 	.footer-logo-block {
@@ -190,7 +223,7 @@
 	.footer-name-block {
 		text-align: left;
 		margin-left: 8px;
-		font-size: 17px;
+		font-size: 16px;
 	}
 
 	.base {

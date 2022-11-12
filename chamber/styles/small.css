@@ -8,7 +8,7 @@
 
 body {
 	margin: 0 auto;
-	max-width: 1000px;
+	max-width: 1200px;
 }
 
 /* HEADER CSS STYLING */
@@ -176,10 +176,11 @@ ul.navigation.responsive {
 	color: var(--main-color3);
 }
 
-.hero img {
+#chamber .hero picture img {
 	width: 100%;
 	height: 100%;
-	object-fit: fill;
+	position: absolute;
+	left: 0;
 }
 
 #chamber .hero h3 {
@@ -455,6 +456,128 @@ form h2 {
 	margin-bottom: 10px;
 }
 
+/* DIRECTORY PAGE CSS STYLING */
+
+.menu {
+	margin: 1rem;
+	border: 2px solid var(--main-color1);
+	border-radius: 6px;
+	padding: 0.5rem;
+	background-color: var(--main-color3);
+	text-align: center;
+}
+
+.menu button {
+	padding: .75rem;
+	background-color: var(--main-color1);
+	color: var(--main-color3);
+	border: 2px solid var(--main-color2);
+	border-radius: 6px;
+	font-size: 17px;
+	letter-spacing: .5px;
+}
+
+.directory-grid {
+	display: grid;
+	grid-template-columns: repeat(1, minmax(250px, 1fr));
+	justify-content: center;
+	text-align: center;
+	gap: 0.75rem;
+	margin: 1rem;
+}
+
+.directory-grid section {
+	background-color: var(--main-color1);
+	color: var(--main-color3);
+	border: 2px solid var(--main-color2);
+	padding: 6px;
+	font-size: 14px;
+	box-shadow: 5px 5px 8px black;
+}
+
+.directory-grid section h2 {
+	color: var(--main-color2);
+	display: block;
+	margin-bottom: 10px;
+}
+
+.directory-grid section img {
+	margin-bottom: -8px;
+	max-width: 95%;
+}
+
+.directory-grid section p {
+	margin-bottom: -12px;
+}
+
+.directory-grid section a {
+	display: block;
+	color: var(--main-color2);
+	text-decoration: underline;
+	margin: auto;
+	margin-bottom: 15px;
+	margin-top: 18px;
+}
+
+.directory-list {
+	display: flex;
+	flex-direction: column;
+	margin: 1rem;
+}
+
+.directory-list section {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	padding: 6px;
+	font-size: 14px;
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+}
+
+.directory-list section h2 {
+	display: block;
+	margin-bottom: -8px;
+}
+
+.directory-list section p {
+	display: block;
+	margin-bottom: -8px;
+}
+
+.directory-list section a {
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.directory-list section:nth-child(odd) {
+	background-color: var(--main-color1);
+	color: var(--main-color3);
+	border: 2px solid var(--main-color2);
+	border-radius: 6px;
+}
+
+.directory-list section:nth-child(odd) a:visited {
+	color: var(--main-color3);
+}
+
+.directory-list section:nth-child(even) {
+	background-color: var(--main-color3);
+	color: var(--main-color1);
+	border: 2px solid var(--main-color1);
+	border-radius: 6px;
+}
+
+.directory-list section:nth-child(even) a:visited {
+	color: var(--main-color1);
+}
+
+.directory-list section img {
+	display: none;
+}
+
 /* FOOTER CSS STYLING */
 
 footer {
@@ -515,6 +638,10 @@ footer {
 	display: none;
 }
 
+/* DIRECTORY FOOTER FOR WIREFRAMES */
+
 .wireframes a {
 	color: var(--main-color1);
+	margin-left: 2px;
+	margin-right: 2px;
 }
