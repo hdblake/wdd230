@@ -6,7 +6,7 @@
       "phone": "(630) 264-9831",
       "website": "https://www.classiccinemas.com/program?location=kendall",
       "image": "images/directory/kendall.webp",
-      "membership": 1
+      "membership": "bronze"
     },
     {
       "name": "Fox Bend Golf Course",
@@ -14,7 +14,7 @@
       "phone": "(630) 554-3939",
       "website": "https://www.foxbendgolfcourse.com/",
       "image": "images/directory/fox-bend.webp",
-      "membership": 1
+      "membership": "gold"
     },
     {
       "name": "Fox Valley Winery",
@@ -22,7 +22,7 @@
       "phone": "(630) 554-0404",
       "website": "https://www.foxvalleywinery.com/",
       "image": "images/directory/fox-winery.webp",
-      "membership": 1
+      "membership": "silver"
     },
     {
       "name": "My Sister's Lil Donut Shoppe",
@@ -30,7 +30,7 @@
       "phone": "(331) 203-2736",
       "website": "https://www.facebook.com/mysisterslildonuts/",
       "image": "images/directory/donut.webp",
-      "membership": 1
+      "membership": "gold"
     },
     {
       "name": "Venue 5126",
@@ -38,7 +38,7 @@
       "phone": "(630) 554-7100",
       "website": "https://venue5126.com/",
       "image": "images/directory/Venue5126.webp",
-      "membership": 1
+      "membership": "gold"
     },
     {
       "name": "Village Grind",
@@ -46,7 +46,7 @@
       "phone": "(630) 554-6678",
       "website": "https://www.villagegrindoswego.com/",
       "image": "images/directory/village-grind.webp",
-      "membership": 1
+      "membership": "silver"
     },
     {
       "name": "The Popcorn Store",
@@ -54,7 +54,7 @@
       "phone": "(630) 554-4699",
       "website": "https://thepopcornstores.com/",
       "image": "images/directory/popcorn.webp",
-      "membership": 1
+      "membership": "bronze"
     },
     {
       "name": "Tap House",
@@ -62,7 +62,7 @@
       "phone": "(630) 383-2020",
       "website": "https://www.taphousegrills.com/oswego/",
       "image": "images/directory/tap-house.webp",
-      "membership": 1
+      "membership": "silver"
     },
     {
       "name": "Oswego Cyclery",
@@ -70,7 +70,7 @@
       "phone": "(630) 551-2300",
       "website": "https://www.oswegocyclery.com/",
       "image": "images/directory/cycling.webp",
-      "membership": 1
+      "membership": "bronze"
     }
   ]
 }
