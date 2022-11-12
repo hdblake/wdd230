@@ -57,7 +57,7 @@
               <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
             </label>
             <label for="phone" id="phone-label">Phone #:
-              <input type="tel" name="phone" id="phone" placeholder="(123)456-7890" required>
+              <input type="tel" name="phone" id="phone" placeholder="1234567890" required>
             </label>
           </div>
           <br>
@@ -83,7 +83,7 @@
               <input type="text" name="bname" id="bname" required>
             </label>
             <label for="title" id="title-label">Position:
-              <input type="text" name="title" id="title" minlength="7" pattern="^[a-zA-Z][a-zA-Z0-9 -]">
+              <input type="text" name="title" id="title" pattern="[a-zA-Z -]{7,0}">
             </label>
             <label for="description" id="description-label">Description:
               <textarea name="description" id="description" placeholder="Please describe your business here"
@@ -127,8 +127,6 @@
       </div>
     </footer>
     <script src="scripts/main.js"></script>
-    <script src="scripts/lazy-load.js"></script>
-    <script src="scripts/local-storage.js"></script>
     <script src="https://kit.fontawesome.com/0db8271eaf.js" crossorigin="anonymous"></script>
   </body>
 </html>
