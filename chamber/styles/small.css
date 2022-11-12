@@ -456,6 +456,18 @@ form h2 {
 	margin-bottom: 10px;
 }
 
+.thanks h1 {
+	color: var(--main-color1);
+	font-size: 44px;
+	text-align: center;
+}
+
+.thanks p {
+	color: var(--main-color1);
+	font-size: 18px;
+	text-align: center;
+}
+
 /* DIRECTORY PAGE CSS STYLING */
 
 .menu {
