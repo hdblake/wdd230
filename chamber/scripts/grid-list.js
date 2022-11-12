@@ -1,4 +1,3 @@
-const cards = document.querySelector(".cards")
 const gridButton = document.querySelector("#grid");
 const listButton = document.querySelector("#list");
 const display = document.querySelector("article");
@@ -17,26 +16,62 @@ fetch("json/data.json")
 function displayBusiness(business) {
 
   // Creates the card for the business
-  let card = document.createElement("section");
-  let h2 = document.createElement("h2");
-	let logo = document.createElement("img");
-	let address = document.createElement("p");
-	let phone = document.createElement("p");
-	let website = document.createElement("a");
+  let card = document.querySelector(".section");
+  let h2 = document.querySelector(".h2");
+	let image = document.querySelector(".img");
+	let address = document.querySelector(".address");
+	let phone = document.querySelector(".phone");
+	let website = document.querySelector(".a");
 
   // Text content of the business card
-  h2.textContent = `${business.name}`;
-  logo.setAttribute("src", business.image);
-  logo.setAttribute("alt", `Logo for ${business.name}`);
-  logo.setAttribute("loading", "lazy");
-  address.textContent = `${business.address}`;
-  phone.textContent = `${business.phone}`;
-  website.textContent = `Visit Website`;
+  h2.innerHTML = `${business.name}`;
+  card.appendChild(h2);
+
+  image.setAttribute("src", business.image);
+  image.setAttribute("alt", `Logo for ${business.name}`);
+  card.appendChild(image);
+
+  let logo1 = document.querySelector(".kendall");
+  logo1.setAttribute("style", "width:300px; height:75px;");
+
+  let logo2 = document.querySelector(".fox-bend");
+  logo2.setAttribute("style", "width:205px; height:75px;");
+  logo2.setAttribute("loading", "lazy");
+
+  let logo3 = document.querySelector(".fox-winery");
+  logo3.setAttribute("style", "width:75px; height:75px;");
+  logo3.setAttribute("loading", "lazy");
+
+  let logo4 = document.querySelector(".donuts");
+  logo4.setAttribute("style", "width:75px; height:75px;");
+  logo4.setAttribute("loading", "lazy");
+
+  let logo5 = document.querySelector(".venue");
+  logo5.setAttribute("style", "width:75px; height:75px;");
+  logo5.setAttribute("loading", "lazy");
+
+  let logo6 = document.querySelector(".village-grind");
+  logo6.setAttribute("style", "width:105px; height:75px;");
+  logo5.setAttribute("loading", "lazy");
+
+  let logo7 = document.querySelector(".popcorn");
+  logo7.setAttribute("style", "width:75px; height:75px;");
+  logo7.setAttribute("loading", "lazy");
+
+  let logo8 = document.querySelector(".tap-house");
+  logo8.setAttribute("style", "width:75px; height:75px;");
+  logo8.setAttribute("loading", "lazy");
+
+  let logo9 = document.querySelector(".cycling");
+  logo9.setAttribute("style", "width:160px; height:75px;");
+  logo9.setAttribute("loading", "lazy");
+
+  address.innerHTML = `${business.address}`;
+  phone.innerHTML = `${business.phone}`;
+  website.innerHTML = `Visit Website`;
   website.setAttribute("href", business.website);
 
   // Appending content to the business card
-  card.appendChild(h2);
-  card.appendChild(logo);
   card.appendChild(address);
   card.appendChild(phone);
   card.appendChild(website);
