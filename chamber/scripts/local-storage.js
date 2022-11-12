@@ -1,13 +1,28 @@
-const displayVisits = document.querySelector('.visits');
+const htmlVisit = document.querySelector(".visits")
+const visit = new Date();
+const dateVisited = visit.getTime();
+const localeVisit = Number(window.localStorage.getItem("ls-visit", dateVisited));
 
-let numberOfVisits = Number(window.localStorage.getItem('visits-ls'))
-
-if (numberOfVisits !== 0) {
-  displayVisits.textContent = numberOfVisits;
+if (localeVisit == 0) {
+    htmlVisit.innerHTML = "Welcome! This is your first time visiting.";
+    
 } else {
-  displayVisits.textContent = `None`;
-}
+    let lastVisited = new Date(localeVisit);
+    let todaysVisit = new Date(dateVisited);
 
-numberOfVisits++;
+    let lastDayVisited =  lastVisited.getMonth() + 1 + "/" + lastVisited.getDay() + "/" + lastVisited.getFullYear();
+    let currentVisit = todaysVisit.getMonth() + 1 + "/" +  todaysVisit.getDay() + "/" +  todaysVisit.getFullYear();
 
-localStorage.setItem('visits-ls', numberOfVisits);
+    let lastDate = new Date(lastDayVisited);
+    let currentDate = new Date(currentVisit);
+
+    const difference = Math.abs(currentDate - lastDate);
+    const dayDifference = Math.ceil(difference / (1000 * 60 * 60 * 24));
+    if (dayDifference == 0) {
+        htmlVisit.innerHTML = "Last Visited: Today";
+    }
+    else{
+        htmlVisit.innerHTML = `Days Since Last Visit: ${dayDifference}`;
+}}
+
+window.localStorage.setItem("ls-visit", dateVisited);
