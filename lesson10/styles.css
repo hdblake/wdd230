@@ -1,0 +1,38 @@
+body {
+	text-align: center;
+}
+
+h1 {
+	color: orange;
+	background-color: black;
+	border-radius: 6px;
+	box-shadow: 4px 4px 10px black;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 38px;
+}
+
+p,
+#current-temp {
+	font-size: 20px;
+	text-decoration: underline;
+	text-underline-offset: 5px;
+}
+
+h2 {
+	background-color: orange;
+	border-radius: 6px;
+	padding: 5px;
+	box-shadow: 5px 5px 10px black;
+	max-width: 20%;
+	margin: auto;
+}
+
+img {
+	width: 75px;
+	height: 75px;
+}
+
+figcaption {
+	font-size: 20px;
+}
