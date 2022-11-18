@@ -218,6 +218,7 @@ ul.navigation.responsive {
 	grid-template-columns: 1fr 1fr;
 	font-size: 30px;
 	align-items: center;
+	margin: auto;
 }
 
 .forecast p {
@@ -225,25 +226,28 @@ ul.navigation.responsive {
 }
 
 .coverage {
-	grid-column: 2/3;
-	font-size: 15px;
+	grid-column: span 2;
+	text-align: center;
+	font-size: 16px;
+	margin: 0 auto;
 }
 
-.fa-solid {
-	font-size: 45px;
+.icon {
+	width: 65px;
+	height: 65px;
 }
 
 .wind-factor {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	margin-top: 20px;
+	margin-top: 10px;
 	border-top: 1px solid var(--main-color2);
 	font-size: 18px;
 }
 
 .wind-speed,
 .wind-factor span:nth-of-type(2) {
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
 .wind-speed,
