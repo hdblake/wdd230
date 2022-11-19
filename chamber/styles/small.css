@@ -204,6 +204,16 @@ ul.navigation.responsive {
 	background-color: var(--main-color2);
 	color: var(--main-color1);
 	font-weight: bold;
+	cursor: pointer;
+}
+
+.hero button:hover {
+	background-color: var(--main-color3);
+	color: var(--main-color1);
+	border: 2px solid var(--main-color2);
+	border-radius: 5px;
+	padding: 8px;
+	box-shadow: 4px 4px 8px black;
 }
 
 .weather {
