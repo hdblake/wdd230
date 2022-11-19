@@ -37,21 +37,8 @@ function displayWeather(weatherData) {
   icon.setAttribute("src", iconSrc);
   icon.setAttribute("alt", desc);
 
-  currentTemp.innerHTML = `${weatherData.main.temp.toFixed(0)}`;
-  windSpeed.innerHTML = `${weatherData.wind.speed.toFixed(0)}`;
+  currentTemp.innerHTML = `${weatherData.main.temp.toFixed(0)}&#8457;`;
   coverage.innerHTML = desc;
-
-  if (parseInt(currentTemp) <= 50 && parseInt(windSpeed) > 3) {
-    let chill =
-      35.74 +
-      0.6215 * currentTemp -
-      35.75 * windSpeed ** 0.16 +
-      0.4275 * currentTemp * windSpeed ** 0.16;
-  
-    windChill.innerHTML = `${Math.round(chill)} &#8457;`;
-    
-  } else {
-    chill = "N/A";
-    windChill.innerHTML = `${chill}`;
-  }
+  windSpeed.innerHTML = `${weatherData.wind.speed.toFixed(0)}`;
+  windChill.innerHTML = `${weatherData.main.feels_like.toFixed(0)}&#8457;`;
 }
