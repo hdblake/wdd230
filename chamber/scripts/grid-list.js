@@ -8,7 +8,6 @@ fetch("json/data.json")
 		return response.json();
 	})
 	.then(function (jsonObject) {
-		console.table(jsonObject);
 		const businesses = jsonObject["businesses"];
 		businesses.forEach(displayBusiness);
 	});
@@ -29,8 +28,18 @@ function displayBusiness(business) {
 	// Appends JSON image
 	image.setAttribute("src", business.image);
 	image.setAttribute("alt", `Logo for ${business.name}`);
-	image.setAttribute("loading", "lazy");
 	card.appendChild(image);
+
+	// Gets image and apply styles
+	let imageStyle = document.querySelectorAll("img");
+	for (let i = 0; i < imageStyle.length; i++) {
+		imageStyle[i] = image.setAttribute("width", business.width);
+		imageStyle[i] = image.setAttribute("height", business.height);
+	}
+
+	for (let i = 2; i < imageStyle.length; i++) {
+		imageStyle[i].setAttribute("loading", "lazy");
+	}
 
 
 	// Adds JSON address, phone, and website
