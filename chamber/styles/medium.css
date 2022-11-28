@@ -122,6 +122,10 @@
 		box-shadow: 4px 4px 8px black;
 	}
 
+	#chamber .join a:visited {
+		color: var(--main-color1);
+	}
+
 	.event p,
 	.news p,
 	.join p {

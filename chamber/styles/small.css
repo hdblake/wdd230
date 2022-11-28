@@ -216,6 +216,10 @@ ul.navigation.responsive {
 	box-shadow: 4px 4px 8px black;
 }
 
+.hero a:visited {
+	color: var(--main-color1);
+}
+
 .weather {
 	display: flex;
 	flex-direction: column;
@@ -242,9 +246,9 @@ ul.navigation.responsive {
 	margin: 0 auto;
 }
 
-.icon {
-	width: 65px;
-	height: 65px;
+.icon img {
+	width: 60px;
+	height: 60px;
 }
 
 .wind-factor {
