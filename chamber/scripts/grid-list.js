@@ -2,7 +2,7 @@ const gridButton = document.querySelector("#grid");
 const listButton = document.querySelector("#list");
 const display = document.querySelector("#cards");
 
-// Fetches data from JSON file and parses it to JS object
+// Fetch data from JSON file and parse it
 fetch("json/data.json")
 	.then(function (response) {
 		return response.json();
