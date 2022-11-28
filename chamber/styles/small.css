@@ -540,6 +540,10 @@ form h2 {
 	margin-top: 18px;
 }
 
+.directory-grid img {
+	max-width: 95%;
+}
+
 .directory-list {
 	display: flex;
 	flex-direction: column;
@@ -595,7 +599,7 @@ form h2 {
 	color: var(--main-color1);
 }
 
-.directory-list section img {
+.directory-list img {
 	display: none;
 }
 
