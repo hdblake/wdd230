@@ -335,7 +335,7 @@ ul.navigation.responsive {
 	margin: 10px;
 }
 
-#discover section {
+#discover section, .visitors {
 	grid-column: span 1;
 	padding: 6px;
 	border: 2px solid var(--main-color2);
