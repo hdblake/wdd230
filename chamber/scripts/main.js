@@ -48,5 +48,5 @@ if (current.getDay() === 1 || current.getDay() === 2) {
 };
 
 // Script for hidden date load
-const hidden = document.querySelector("date-time");
-hidden.innerHTML = currentDate;
+const hidden = document.querySelector("#date-time");
+hidden.value = new Date();
