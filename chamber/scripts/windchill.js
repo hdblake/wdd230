@@ -25,6 +25,7 @@ async function fetchURL() {
 fetchURL();
 
 function displayWeather(weatherData) {
+  let iconImage = document.createElement("img");
   const iconSrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
 
   let desc = weatherData.weather[0].description;
@@ -34,8 +35,9 @@ function displayWeather(weatherData) {
 		.map((a) => a.charAt(0).toUpperCase() + a.substring(1))
 		.join(" ");
 
-  icon.setAttribute("src", iconSrc);
-  icon.setAttribute("alt", desc);
+  iconImage.setAttribute("src", iconSrc);
+  iconImage.setAttribute("alt", desc);
+  icon.appendChild(iconImage);
 
   currentTemp.innerHTML = `${weatherData.main.temp.toFixed(0)}&#8457;`;
   windSpeed.innerHTML = `${weatherData.wind.speed.toFixed(0)}`;
