@@ -8,7 +8,6 @@ fetch(requestURL)
 		return response.json();
 	})
 	.then(function (jsonObject) {
-		console.table(jsonObject);
 		const prophets = jsonObject["prophets"];
 		prophets.forEach(displayProphets);
 	});
