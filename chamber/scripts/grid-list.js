@@ -1,6 +1,6 @@
 const gridButton = document.querySelector("#grid");
 const listButton = document.querySelector("#list");
-const display = document.querySelector("article");
+const display = document.querySelector("#directory");
 
 // Fetches data from JSON file and parses it to JS object
 fetch("json/data.json")
@@ -16,7 +16,7 @@ fetch("json/data.json")
 function displayBusiness(business) {
 	// Creates the card for the business
 	let card = document.querySelector(".section");
-	let div = document.querySelector(".img");
+	let divImg = document.querySelector(".img");
 	let h2 = document.createElement("h2");
 	let image = document.createElement("img");
 	let address = document.querySelector(".address");
@@ -29,8 +29,8 @@ function displayBusiness(business) {
 
 	image.setAttribute("src", business.image);
 	image.setAttribute("alt", `Logo for ${business.name}`);
-	div.appendChild(image);
-	card.appendChild(div);
+	divImg.appendChild(image);
+	card.appendChild(divImg);
 
 	let logo1 = document.querySelector(".kendall");
 	logo1.setAttribute(
