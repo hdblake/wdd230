@@ -17,7 +17,7 @@ function displayBusiness(business) {
 	// Creates the card for the business
 	let card = document.querySelector(".section");
 	let divImg = document.querySelector(".img");
-	let h2 = document.createElement("h2");
+	let h2 = document.querySelector("h2");
 	let image = document.createElement("img");
 	let address = document.querySelector(".address");
 	let phone = document.querySelector(".phone");
