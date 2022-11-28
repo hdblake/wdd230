@@ -6,7 +6,9 @@
       "phone": "(630) 264-9831",
       "website": "https://www.classiccinemas.com/program?location=kendall",
       "image": "images/directory/kendall.webp",
-      "membership": "bronze"
+      "membership": "bronze",
+      "width": "300px",
+      "height": "75px"
     },
     {
       "name": "Fox Bend Golf Course",
@@ -14,7 +16,9 @@
       "phone": "(630) 554-3939",
       "website": "https://www.foxbendgolfcourse.com/",
       "image": "images/directory/fox-bend.webp",
-      "membership": "gold"
+      "membership": "gold",
+      "width": "205px",
+      "height": "75px"
     },
     {
       "name": "Fox Valley Winery",
@@ -22,7 +26,9 @@
       "phone": "(630) 554-0404",
       "website": "https://www.foxvalleywinery.com/",
       "image": "images/directory/fox-winery.webp",
-      "membership": "silver"
+      "membership": "silver",
+      "width": "75px",
+      "height": "75px"
     },
     {
       "name": "My Sister's Lil Donut Shoppe",
@@ -30,7 +36,9 @@
       "phone": "(331) 203-2736",
       "website": "https://www.facebook.com/mysisterslildonuts/",
       "image": "images/directory/donut.webp",
-      "membership": "gold"
+      "membership": "gold",
+      "width": "75px",
+      "height": "75px"
     },
     {
       "name": "Venue 5126",
@@ -38,7 +46,9 @@
       "phone": "(630) 554-7100",
       "website": "https://venue5126.com/",
       "image": "images/directory/Venue5126.webp",
-      "membership": "gold"
+      "membership": "gold",
+      "width": "75px",
+      "height": "75px"
     },
     {
       "name": "Village Grind",
@@ -46,7 +56,9 @@
       "phone": "(630) 554-6678",
       "website": "https://www.villagegrindoswego.com/",
       "image": "images/directory/village-grind.webp",
-      "membership": "silver"
+      "membership": "silver",
+      "width": "105px",
+      "height": "75px"
     },
     {
       "name": "The Popcorn Store",
@@ -54,7 +66,9 @@
       "phone": "(630) 554-4699",
       "website": "https://thepopcornstores.com/",
       "image": "images/directory/popcorn.webp",
-      "membership": "bronze"
+      "membership": "bronze",
+      "width": "75px",
+      "height": "75px"
     },
     {
       "name": "Tap House",
@@ -62,7 +76,9 @@
       "phone": "(630) 383-2020",
       "website": "https://www.taphousegrills.com/oswego/",
       "image": "images/directory/tap-house.webp",
-      "membership": "silver"
+      "membership": "silver",
+      "width": "75px",
+      "height": "75px"
     },
     {
       "name": "Oswego Cyclery",
@@ -70,7 +86,9 @@
       "phone": "(630) 551-2300",
       "website": "https://www.oswegocyclery.com/",
       "image": "images/directory/cycling.webp",
-      "membership": "bronze"
+      "membership": "bronze",
+      "width": "160px",
+      "height": "75px"
     }
   ]
 }
