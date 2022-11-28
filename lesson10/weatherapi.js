@@ -10,7 +10,6 @@ async function apiFetch() {
 		const response = await fetch(URL);
 		if (response.ok) {
 			const data = await response.json();
-			console.log(data);
 			displayResults(data);
 		} else {
 			throw Error(await response.text());
@@ -23,11 +22,11 @@ async function apiFetch() {
 apiFetch();
 
 function displayResults(weatherData) {
-	currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(
-		0
-	)}</strong>`;
+	currentTemp.innerHTML = 
+	`<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
 
 	const iconSource = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
+
 	let desc = weatherData.weather[0].description;
 	desc = desc
 		.toLowerCase()
