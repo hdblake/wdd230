@@ -193,7 +193,7 @@
 		font-size: 16px;
 		padding: 8px;
 	}
-	
+
 	.directory-list section {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -213,7 +213,12 @@
 		margin-bottom: 0px;
 	}
 
-	
+	/* CONTACT PAGE CSS STYLING */
+
+	.inqueries {
+		font-size: 16px;
+		max-width: 600px;
+	}
 
 	/* FOOTER CSS STYLING */
 
