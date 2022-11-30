@@ -285,8 +285,11 @@ ul.navigation.responsive {
 	margin-top: 5px;
 }
 
-.join,
-.spotlight-3 {
+.join {
+	display: none;
+}
+
+.random-spotlight:nth-of-type(3) {
 	display: none;
 }
 
@@ -297,43 +300,34 @@ ul.navigation.responsive {
 	gap: 0.5rem;
 }
 
-.spotlight-1,
-.spotlight-2 {
+.random-spotlight:nth-of-type(1),
+.random-spotlight:nth-of-type(2) {
 	border: 2px solid var(--main-color2);
 	margin: 0 auto;
 	width: 100%;
 	grid-row: span 2;
-	height: 100%;
+	height: auto;
 	padding: 0.5rem;
 }
 
-.spotlight i {
-	font-size: 65px;
-	color: var(--main-color3);
-}
-
-.spotlight-1,
-.spotlight-2,
-.spotlight-3 {
+.random-spotlight:nth-of-type(1),
+.random-spotlight:nth-of-type(2),
+.random-spotlight:nth-of-type(3) {
 	position: relative;
 }
 
-#chamber .spotlight .spotlight-contact {
-	position: absolute;
-	bottom: 0;
-	left: 6px;
-	right: 6px;
+
+.random-spotlight p {
 	text-align: center;
-	border-top: 1px solid var(--main-color2);
 	color: var(--main-color3);
-}
-
-#chamber .spotlight .spotlight-contact p {
 	font-size: 14px;
+	border-top: 1px solid var(--main-color2);
+	padding-top: 12px;
 }
 
-.spotlight-contact a {
+.random-spotlight a {
 	color: var(--main-color2);
+	font-size: 14px;
 }
 
 /* DISCOVER PAGE CSS STYLING */

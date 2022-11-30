@@ -78,20 +78,15 @@
 		grid-template-columns: 1fr 1fr;
 	}
 
-	.spotlight i {
-		margin-top: -8px;
+	.random-spotlight p {
+		padding-top: 10px;
+		margin-bottom: 4px;
+		margin-top: 6px;
 	}
 
-	.spotlight-contact {
-		margin-bottom: -6px;
-	}
-
-	#chamber .spotlight .spotlight-contact p {
+	.random-spotlight p,
+	.random-spotlight a {
 		font-size: 15px;
-	}
-
-	#chamber .spotlight .spotlight-contact p:nth-of-type(1) {
-		margin-top: 10px;
 	}
 
 	#chamber .join {
