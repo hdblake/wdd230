@@ -161,13 +161,20 @@
 		padding: 10px;
 	}
 
+	/* CONTACT PAGE CSS STYLING */
+
+	.inqueries input,
+	.inqueries textarea {
+		width: 70%;
+	}
+
 	/* FOOTER CSS STYLING */
 
 	.footer-logo-block {
-		justify-content: flex-end;
+		justify-content: center;
 	}
 
-	.footer-logo-block section {
+	.contact-block {
 		font-size: 18px;
 	}
 

@@ -6,7 +6,6 @@
 	}
 
 	.meet-greet {
-		padding: 6px;
 		font-size: 16px;
 	}
 
@@ -215,10 +214,33 @@
 
 	/* CONTACT PAGE CSS STYLING */
 
+	#contact {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		align-items: start;
+		justify-content: center;
+	}
+
 	.inqueries {
 		font-size: 16px;
-		max-width: 600px;
+		margin-bottom: 40px;
 	}
+
+	.inqueries input {
+		height: 30px;
+	}
+
+	.inqueries label,
+	.inqueries input,
+	.inqueries textarea {
+		margin: 6px;
+	}
+
+	.inqueries input,
+	.inqueries textarea {
+		width: 80%;
+	}
+
 
 	/* FOOTER CSS STYLING */
 
