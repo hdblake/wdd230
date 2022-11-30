@@ -109,7 +109,8 @@
 
 	/* JOIN PAGE CSS STYLING */
 
-	form {
+	#form .join-form {
+		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-template-rows: repeat(2, auto);
 		gap: 1rem;

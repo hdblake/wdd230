@@ -153,11 +153,11 @@
 
 	/* JOIN PAGE CSS STYLING */
 
-	form {
+	#form {
 		border-radius: 8px;
 	}
 
-	form h2 {
+	#form h2 {
 		font-size: 28px;
 		letter-spacing: 1px;
 	}

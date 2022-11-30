@@ -374,7 +374,7 @@ ul.navigation.responsive {
 
 /* JOIN PAGE CSS STYLING */
 
-form {
+#form {
 	display: grid;
 	grid-template-columns: 1fr;
 	margin: 10px;
@@ -386,7 +386,7 @@ form {
 	justify-content: center;
 }
 
-form h2 {
+#form h2 {
 	text-decoration: var(--main-color3) underline;
 	text-underline-offset: 5px;
 	color: var(--main-color2);
@@ -419,6 +419,7 @@ form h2 {
 	width: 70%;
 	border-radius: 8px;
 	border: none;
+	height: 25px;
 }
 
 #form .business label,
