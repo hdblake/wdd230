@@ -6,3 +6,8 @@
 	--color4: #dec0f1;
 	--color5: #efd9ce;
 }
+
+body {
+	margin: 0 auto;
+	font-family: "Marvel", sans-serif;
+}
