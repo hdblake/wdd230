@@ -27,15 +27,17 @@ fetch("json/data.json")
       let website = document.createElement("a");
 
       h3.innerHTML = `${member[randomSpot].name}`;
+      card.appendChild(h3);
 
       logo.setAttribute("src", member[randomSpot].image);
       logo.setAttribute("alt", `Logo for: ${member[randomSpot].name}`);
+      card.appendChild(logo);
 
       // Gets image and applies styles
 	    let imageStyle = document.querySelectorAll("img");
 	    for (let i = 0; i < imageStyle.length; i++) {
-		    imageStyle[i] = image.setAttribute("width", member[randomSpot].width);
-		    imageStyle[i] = image.setAttribute("height", member[randomSpot].height);
+		    imageStyle[i] = logo.setAttribute("width", member[randomSpot].width);
+		    imageStyle[i] = logo.setAttribute("height", member[randomSpot].height);
 	    };
 
       phone.innerHTML = `${member[randomSpot].phone} `;
@@ -43,8 +45,6 @@ fetch("json/data.json")
       website.setAttribute("href", member[randomSpot].website);
       website.innerHTML = `Website`;
 
-      card.appendChild(h3);
-      card.appendChild(logo);
       card.appendChild(phone);
       card.appendChild(website);
 
