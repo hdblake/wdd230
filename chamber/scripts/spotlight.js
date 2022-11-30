@@ -31,6 +31,13 @@ fetch("json/data.json")
       logo.setAttribute("src", member[randomSpot].image);
       logo.setAttribute("alt", `Logo for: ${member[randomSpot].name}`);
 
+      // Gets image and applies styles
+	    let imageStyle = document.querySelectorAll("img");
+	    for (let i = 0; i < imageStyle.length; i++) {
+		    imageStyle[i] = image.setAttribute("width", member[randomSpot].width);
+		    imageStyle[i] = image.setAttribute("height", member[randomSpot].height);
+	    };
+
       phone.innerHTML = `${member[randomSpot].phone} `;
 
       website.setAttribute("href", member[randomSpot].website);
