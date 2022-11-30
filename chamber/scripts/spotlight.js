@@ -7,9 +7,16 @@ fetch("json/data.json")
 	})
 	.then(function (jsonObject) {
 		const businesses = jsonObject["businesses"];
+
+    // Filter through businesses to find membership level of silver or gold
 		const member = businesses.filter((business) =>
     business.membership === "silver" || business.membership === "gold");
 
+    /* 
+      Loop through the businesses with membership level of silver or gold
+      and randomly display businesses that match criteria
+      to spotlight section in HTML
+    */
     for (let i = 0; i < 3; i++) {
       let randomSpot = Math.floor(Math.random() * member.length);
       let card = document.createElement("div");
