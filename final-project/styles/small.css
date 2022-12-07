@@ -1,10 +1,8 @@
 * {
 	box-sizing: border-box;
 	--color1: #4833eb;
-	--color2: #957fef;
-	--color3: #b79ced;
-	--color4: #dec0f1;
-	--color5: #efd9ce;
+	--color2: #dec0f1;
+	--color3: #fff;
 }
 
 body {
@@ -18,7 +16,7 @@ body {
 header {
 	margin: 0 auto;
 	text-align: center;
-	background-color: var(--color4);
+	background-color: var(--color2);
 }
 
 .logo-block,
@@ -42,24 +40,24 @@ header {
 .nav {
 	display: flex;
 	justify-content: space-evenly;
-	background-color: var(--color5);
+	background-color: var(--color1);
 }
 
 .nav li {
 	list-style: none;
-	font-size: 26px;
+	font-size: 24px;
 	padding: 5px;
 }
 
 .nav a {
 	text-decoration: none;
-	color: var(--color1);
+	color: var(--color3);
 	padding: 5px;
 }
 
 .nav a:hover {
-	background-color: var(--color1);
-	color: var(--color5);
+	background-color: var(--color2);
+	color: var(--color1);
 	padding: 5px;
 	border-radius: 10px;
 }
@@ -69,7 +67,7 @@ header {
 .main-container {
 	display: grid;
 	grid-template-columns: 1fr;
-	margin: .75rem;
+	margin: 0.75rem;
 	gap: 0.5rem;
 }
 
@@ -78,4 +76,38 @@ header {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+}
+
+.area-locations h2 {
+	color: var(--color1);
+	font-size: 32px;
+}
+
+.area-locations .card {
+	background: var(--color1);
+	text-align: center;
+	border-radius: 8px;
+	box-shadow: 2px 2px 6px black;
+	margin-bottom: 15px;
+	padding: 5px;
+}
+
+.card img {
+	border-radius: 8px;
+	width: 100%;
+	height: auto;
+}
+
+.card h4 {
+	font-size: 24px;
+}
+
+.card h4,
+.card p {
+	margin: 5px;
+	color: var(--color3);
+}
+
+.card p {
+	font-size: 18px;
 }
