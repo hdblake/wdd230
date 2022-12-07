@@ -1,3 +1,13 @@
+let currentTemp = document.createElement("p");
+let conditions = document.createElement("p");
+let humidity = document.createElement("p");
+let forecast = document.createElement("div");
+let currentHigh = document.createElement("p");
+let dayTwoHigh = document.createElement("p");
+let dayThreeHigh = document.createElement("p");
+let card = document.querySelector(".weather-card");
+let display = document.querySelector(".weather");
+
 const URL =
 	"https://api.openweathermap.org/data/2.5/forecast?lat=33.1581&lon=-117.3506&cnt=3&appid=97ce60e6d0bc0ca722b497935512500d&units=imperial";
 
@@ -19,16 +29,6 @@ async function fetchAPI() {
 fetchAPI();
 
 function displayWeather(weatherData) {
-	let currentTemp = document.createElement("p");
-	let conditions = document.createElement("p");
-	let humidity = document.createElement("p");
-	let forecast = document.createElement("div");
-	let currentHigh = document.createElement("p");
-	let dayTwoHigh = document.createElement("p");
-	let dayThreeHigh = document.createElement("p");
-	let card = document.querySelector(".weather-card");
-	let display = document.querySelector(".weather");
-
 	currentTemp.innerHTML = `Current Temp: ${weatherData.list[0].main.temp.toFixed(0)}°F`;
 	card.appendChild(currentTemp);
 
