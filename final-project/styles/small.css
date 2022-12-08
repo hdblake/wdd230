@@ -79,9 +79,13 @@ header {
 }
 
 .area-locations h2,
-.weather h2 {
+.weather h2,
+.drink-orders h2 {
 	color: var(--color1);
-	font-size: 32px;
+	font-size: 34px;
+	text-decoration: underline;
+	text-decoration-color: var(--color2);
+	text-underline-offset: 5px;
 }
 
 .area-locations .card {
@@ -142,8 +146,9 @@ header {
 .weather-card div:nth-child(2) h4 {
 	grid-row: 1/2;
 	grid-column: span 3;
-	font-size: 22px;
+	font-size: 23px;
 	margin: 5px;
+	margin-top: 10px;
 	color: var(--color2);
 	text-decoration: underline;
 	text-decoration-color: var(--color3);
@@ -152,6 +157,10 @@ header {
 
 .weather-card div:nth-child(2) p {
 	grid-row: 2/3;
+}
+
+.drink-orders {
+	text-align: center;
 }
 
 .call-to-action {
