@@ -78,7 +78,8 @@ header {
 	justify-content: center;
 }
 
-.area-locations h2 {
+.area-locations h2,
+.weather h2 {
 	color: var(--color1);
 	font-size: 32px;
 }
@@ -110,4 +111,71 @@ header {
 
 .card p {
 	font-size: 18px;
+}
+
+.weather {
+	text-align: center;
+}
+
+.weather .weather-card {
+	background: var(--color1);
+	color: var(--color3);
+	text-align: center;
+	border-radius: 8px;
+	box-shadow: 2px 2px 6px black;
+	margin-bottom: 15px;
+	padding: 5px;
+}
+
+.weather-card div:nth-child(1) {
+	font-size: 20px;
+}
+
+.weather-card div:nth-child(2) {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto;
+	justify-content: space-around;
+	border-top: 4px solid var(--color2);
+}
+
+.weather-card div:nth-child(2) h4 {
+	grid-row: 1/2;
+	grid-column: span 3;
+	font-size: 22px;
+	margin: 5px;
+	color: var(--color2);
+	text-decoration: underline;
+	text-decoration-color: var(--color3);
+	text-underline-offset: 5px;
+}
+
+.weather-card div:nth-child(2) p {
+	grid-row: 2/3;
+}
+
+.call-to-action {
+	text-align: center;
+}
+
+.call-to-action button {
+	padding: 20px;
+	border-radius: 6px;
+	background-color: var(--color2);
+	border: none;
+	box-shadow: 2px 2px 6px black;
+}
+
+.call-to-action button a {
+	font-size: 21px;
+	color: var(--color1);
+	text-decoration: none;
+}
+
+.call-to-action button:hover {
+	background-color: var(--color1);
+}
+
+.call-to-action button a:hover {
+	color: var(--color3);
 }
