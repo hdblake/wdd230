@@ -64,7 +64,7 @@ header {
 
 /* HOME PAGE CSS SYLING*/
 
-.main-container {
+.home-container {
 	display: grid;
 	grid-template-columns: 1fr;
 	margin: 0.75rem;
@@ -78,14 +78,13 @@ header {
 	justify-content: center;
 }
 
-.area-locations h2,
-.weather h2,
-.drink-orders h2 {
+main .h2 {
 	color: var(--color1);
 	font-size: 34px;
 	text-decoration: underline;
 	text-decoration-color: var(--color2);
 	text-underline-offset: 5px;
+	text-align: center;
 }
 
 .area-locations .card {
@@ -187,4 +186,25 @@ header {
 
 .call-to-action button a:hover {
 	color: var(--color3);
+}
+
+/* FRESH PAGE CSS STYLING */
+
+.fresh-container {
+	margin: 0.75rem;
+}
+
+.fresh-container .form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+.form-container {
+	background-color: var(--color1);
+	color: var(--color3);
+	border-radius: 8px;
+	box-shadow: 2px 2px 6px black;
 }
