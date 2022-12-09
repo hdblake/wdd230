@@ -33,14 +33,37 @@
         <h2 class="h2">Order Your Drink(s)</h2>
         <div class="form-container">
           <form class="form" action="#">
-            <label for="fname">First Name:</label>
-            <input type="text" name="fname" id="fname" required>
-            <label for="lname">Last Name:</label>
-            <input type="text" name="lname" id="lname" required>
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
-            <label for="phone">Phone Number:</label>
-            <input type="tel" name="phone" id="phone" placeholder="1234567890" required>
+            <div class="customer-info">
+              <label for="fname">First Name:</label>
+              <input type="text" name="fname" id="fname" required>
+              <label for="lname">Last Name:</label>
+              <input type="text" name="lname" id="lname" required>
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+              <label for="phone">Phone Number:</label>
+              <input type="tel" name="phone" id="phone" placeholder="1234567890" required>
+            </div>
+            <div class="order-selection">
+              <h4>Select Up To 3 Fruits</h4>
+              <select name="select1" id="select1" required>
+                <option value="default">Choose a Fruit</option>
+              </select>
+              <select name="select2" id="select2" required>
+                <option value="default">Choose a Fruit</option>
+                <option value="none">None</option>
+              </select>
+              <select name="select3" id="select3" required>
+                <option value="default">Choose a Fruit</option>
+                <option value="none">None</option>
+              </select>
+            </div>
+            <div class="request">
+              <label for="special" class="special-label">Special Request</label>
+              <textarea name="special" id="special" rows="6" placeholder="Please put any special request you may have here..."></textarea>
+            </div>
+            <div class="button">
+              <button type="submit" id="submit" name="submit">Submit Order</button>
+            </div>
           </form>
         </div>
       </div>
