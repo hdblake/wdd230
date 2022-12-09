@@ -42,6 +42,8 @@ function displayFruits(content) {
   }
 }
 
+// displayOrder should SUM carbs, protein, fat, sugar, and calories for drink based upon 3 selections
+
 // function displayOrder() {
 
 //   document.querySelector(".first").innerHTML = document.getElementById("fname").value;
