@@ -145,7 +145,7 @@ main .h2 {
 .weather-card div:nth-child(2) h4 {
 	grid-row: 1/2;
 	grid-column: span 3;
-	font-size: 23px;
+	font-size: 22px;
 	margin: 5px;
 	margin-top: 10px;
 	color: var(--color2);
@@ -194,7 +194,14 @@ main .h2 {
 	margin: 0.75rem;
 }
 
-.fresh-container .form {
+.form-container {
+	background-color: var(--color1);
+	color: var(--color3);
+	border-radius: 8px;
+	box-shadow: 2px 2px 6px black;
+}
+
+.form div {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -202,9 +209,56 @@ main .h2 {
 	padding: 10px;
 }
 
-.form-container {
-	background-color: var(--color1);
-	color: var(--color3);
-	border-radius: 8px;
-	box-shadow: 2px 2px 6px black;
+.form label {
+	font-size: 18px;
+}
+
+.form input,
+.form textarea {
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+.form select {
+	margin-bottom: 20px;
+}
+
+.form input,
+.form select,
+.form textarea {
+	width: 215px;
+	border-radius: 6px;
+	border: none;
+}
+
+.form input,
+.form select {
+	height: 30px;
+}
+
+.form h4 {
+	font-size: 24px;
+	color: var(--color2);
+	text-decoration: underline;
+	text-decoration-color: var(--color3);
+	margin: 0px;
+	margin-bottom: 15px;
+	text-underline-offset: 5px;
+}
+
+.form button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--color2);
+	color: var(--color1);
+	font-size: 20px;
+	border-radius: 6px;
+	border: none;
+	margin: 20px;
+	padding: 20px;
+}
+
+.form button:hover {
+	background-color: var(--color3);
 }
