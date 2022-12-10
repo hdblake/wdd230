@@ -98,7 +98,7 @@ main .h2 {
 
 .card img {
 	border-radius: 8px;
-	width: 100%;
+	max-width: auto;
 	height: auto;
 }
 
