@@ -28,10 +28,12 @@
 
   main .h2 {
     font-size: 38px;
+    margin-top: 5px;
   }
 
   .card {
     padding: 8px;
+    margin-bottom: 30px;
   }
 
   .card p {
