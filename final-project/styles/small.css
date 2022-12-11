@@ -345,7 +345,7 @@ footer .social a:hover {
 }
 
 footer .social i {
-	font-size: 26px;
+	font-size: 28px;
 }
 
 footer .last-modified {
@@ -353,7 +353,7 @@ footer .last-modified {
 	margin-top: 2px;
 	padding: 5px;
 	color: var(--color3);
-	font-size: 20px;
+	font-size: 19px;
 	letter-spacing: 0.75px;
 	background-color: var(--color1);
 }
