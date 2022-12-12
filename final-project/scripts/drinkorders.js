@@ -1,8 +1,8 @@
-const URL = "https://brotherblazzard.github.io/canvas-content/fruit.json";
+const requestURL = "https://brotherblazzard.github.io/canvas-content/fruit.json";
 
 async function fetchFruitApi() {
   try {
-    const response = await fetch(URL);
+    const response = await fetch(requestURL);
     if (response.ok) {
       const data = await response.json();
       displayFruits(data);
