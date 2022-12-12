@@ -68,6 +68,14 @@
     width: 225px;
   }
 
+  .contact .card div:nth-of-type(5) p {
+    margin-top: 10px;
+  }
+
+  .contact .card p a {
+    font-size: 26px;
+  }
+
   /* FRESH PAGE CSS STYLING */
 
   .form label {
