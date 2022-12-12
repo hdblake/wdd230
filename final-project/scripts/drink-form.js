@@ -19,6 +19,7 @@ fetchFruitApi();
 
 function displayFruits(content) {
 
+  // Get queries of 3 select elements from html
   let select1 = document.querySelector("#select1");
   let select2 = document.querySelector("#select2");
   let select3 = document.querySelector("#select3");
