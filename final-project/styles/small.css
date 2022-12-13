@@ -230,6 +230,17 @@ main .h2 {
 	margin-bottom: 50px;
 }
 
+.form-container #output {
+	margin: 5px auto;
+	text-align: center;
+	padding: 5px;
+}
+
+.form-container p {
+	font-size: 20px;
+	color: var(--color3);
+}
+
 .form div {
 	display: flex;
 	flex-direction: column;
