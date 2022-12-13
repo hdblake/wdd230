@@ -45,15 +45,36 @@ function displayFruits(content) {
 
 // displayOrder should SUM carbs, protein, fat, sugar, and calories for drink based upon 3 selections
 
-// function displayOrder() {
+let button = document.getElementById("submit");
 
-//   document.querySelector(".first").innerHTML = document.getElementById("fname").value;
-//   document.querySelector(".last").innerHTML = document.getElementById("lname").value;
-//   document.querySelector(".email").innerHTML = document.getElementById("email").value;
-//   document.querySelector(".phone").innerHTML = document.getElementById("phone").value;
-//   document.querySelector(".option1").innerHTML = document.getElementById("select1").value;
-//   document.querySelector(".option2").innerHTML = document.getElementById("select2").value;
-//   document.querySelector(".option3").innerHTML = document.getElementById("select3").value;
-//   document.querySelector(".special").innerHTML = document.getElementById("request").value;
+button.addEventListener('click', displayOrder);
+
+function displayOrder(event) {
+
+  event.preventDefault();
+
+  let name = document.getElementById("fname").value;
+  let email = document.getElementById("email").value;
+  let phone = document.getElementById("phone").value;
+  let fruit1 = document.getElementById("select1").value;
+  let fruit2 = document.getElementById("select2").value;
+  let fruit3 = document.getElementById("select3").value;
+  let request = document.getElementById("special").value;
+  let output = document.querySelector("#output");
+  const date = new Date();
+
+  // Variable for modified date format
+  let dateFormat = date.toLocaleString("en-US", {
+    month: "2-digit", day: "2-digit", year: "numeric"
+  });
+
+
+  output.innerHTML = `<p>Order Submitted! Details:<br>
+  First Name: ${name}<br>
+  Email: ${email}<br>
+  Phone Number: ${phone}<br>
+  Fruit Selections: ${fruit1}, ${fruit2}, ${fruit3}<br>
+  Request: ${request}<br>
+  Date: ${dateFormat}</p>`;
   
-// }
+}
