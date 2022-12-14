@@ -31,6 +31,11 @@
     margin-top: 5px;
   }
 
+  .card img {
+    max-width: 440px;
+    height: auto;
+  }
+
   .card {
     padding: 8px;
     margin-bottom: 30px;

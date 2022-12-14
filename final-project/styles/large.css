@@ -20,6 +20,11 @@
     margin: auto;
   }
 
+  .card img {
+    max-width: 640px;
+    height: auto;
+  }
+
   .card h4,
   .weather-card div:nth-child(2) h4,
   .form h4 {
