@@ -1,3 +1,4 @@
+// Create elements for weather card
 let currentForecast = document.createElement("div");
 let currentTemp = document.createElement("p");
 let conditions = document.createElement("p");
@@ -29,6 +30,7 @@ async function fetchAPI() {
 
 fetchAPI();
 
+// Pull parsed JSON data, store into created elements, and append to parent
 function displayWeather(weatherData) {
 	currentTemp.innerHTML = `Current Temp: ${weatherData.list[0].main.temp.toFixed(0)}°F`;
 	currentForecast.appendChild(currentTemp);
@@ -44,6 +46,7 @@ function displayWeather(weatherData) {
 	currentForecast.appendChild(humidity);
 	card.appendChild(currentForecast);
 
+	// Capitalize the first letter of each word for the condition description
 	let dayOneCondition = weatherData.list[1].weather[0].description;
 	dayOneCondition = dayOneCondition.toLowerCase().split(" ")
 	.map((a) => a.charAt(0).toUpperCase() + a.substring(1)).join(" ");
