@@ -184,7 +184,7 @@ main .h2 {
 	margin-bottom: 15px;
 }
 
-.call-to-action button a {
+.call-to-action a button {
 	font-size: 21px;
 	color: var(--color3);
 	text-decoration: none;
@@ -194,7 +194,7 @@ main .h2 {
 	background-color: var(--color2);
 }
 
-.call-to-action button a:hover {
+.call-to-action a button:hover {
 	color: var(--color1);
 }
 
