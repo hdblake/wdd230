@@ -125,6 +125,10 @@ main .h2 {
 	font-size: 18px;
 }
 
+.drink-orders .total-orders {
+	font-size: 22px;
+}
+
 .weather {
 	text-align: center;
 }

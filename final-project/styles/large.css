@@ -80,6 +80,10 @@
     grid-row: 1/2;
   }
 
+  .drink-orders .total-orders {
+    font-size: 30px;
+  }
+
   .contact .card {
     display: grid;
     grid-template-columns: 1fr 1fr;

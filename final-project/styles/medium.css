@@ -51,6 +51,10 @@
 	  font-size: 20px;
   }
 
+  .drink-orders .total-orders {
+    font-size: 26px;
+  }
+
   .card h4,
   .weather-card div:nth-child(2) h4,
   .form h4 {
