@@ -18,7 +18,6 @@ async function fetchAPI() {
 		const response = await fetch(URL);
 		if (response.ok) {
 			const data = await response.json();
-			console.log(data);
 			displayWeather(data);
 		} else {
 			throw Error(await response.text());

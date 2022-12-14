@@ -7,7 +7,6 @@ async function fetchFruitApi() {
     if (response.ok) {
       const data = await response.json();
       displayFruits(data);
-      console.log(data);
     } else {
       throw Error(await response.text());
     }
