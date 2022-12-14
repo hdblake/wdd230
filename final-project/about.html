@@ -36,7 +36,12 @@
         <section class="founder">
           <h2 class="h2">Our Founder</h2>
           <div class="card">
-            <img src="images/about/me-640w.webp" alt="Image of Founder" width="640" height="480">
+            <picture>
+              <source media="(max-width: 31em)" srcset="images/about/me-300w.webp" width="300" height="225">
+              <source media="(max-width: 61em)" srcset="images/about/me-440w.webp" width="440" height="330">
+              <source media="(min-width: 61.1em)" srcset="images/about/me-640w.webp" width="640" height="480">
+              <img src="images/about/me-640w.webp" alt="Image of Founder" width="640" height="480">
+            </picture>
             <div class="info">
               <h4>Hunter Blake</h4>
               <p>
