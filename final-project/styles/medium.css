@@ -71,6 +71,7 @@
 
   .call-to-action button {
     width: 225px;
+    font-size: 24px;
   }
 
   .contact .card div:nth-of-type(5) p {
