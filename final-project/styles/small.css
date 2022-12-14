@@ -98,6 +98,8 @@ main .h2 {
 
 .card img {
 	border-radius: 8px;
+	width: 100%;
+	height: auto;
 }
 
 .card h4 {
